@@ -1,1 +1,1 @@
-# Repositorio-grupal-astete-middleton-sepulveda
+# Repositorio grupal, Benjamín Astete, Antonia Middleton, Magdalena Sepúlveda.
