@@ -1,1 +1,2 @@
 # Repositorio grupal, Benjamín Astete, Antonia Middleton, Magdalena Sepúlveda.
+<img src=https://github.com/mgsr20/Repositorio-grupal-astete-middleton-sepulveda/blob/main/Entrega_01/Otros%20documentos/img/Portada_Proyecto.png> 
