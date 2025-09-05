@@ -1,10 +1,4 @@
-# Análisis crítico
-## *Antonia Middleton*
-
-
-- ¿Qué esperas contar y/o revelar del tema? ¿Cuál es el impacto que esperas generar?
-- Elabora al menos 3 ideas que te gustaría realizar para contar la historia
-- El análisis debe tener una extensión mínima de 2000 caracteres y puedes incluir imágenes para ilustrar tus comentarios.
+# Análisis crítico *Antonia Middleton*
 
 Respecto a la temática que hemos elegido, aquello que más me interesa mostrar es como la moda femenina cambia no sólo al reflejar a la sociedad chilena, si no que a la economía de nuestro país. 
 
