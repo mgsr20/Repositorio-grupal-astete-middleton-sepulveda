@@ -1,4 +1,5 @@
 # Lo que te aco*moda*
+![alt text](<Entrega_01/Otros documentos/img/Portada_Proyecto.png>)
 
 ## El proyecto
 Según un reporte de Mckinsey & Company, acerca del estado actual de la industria de la moda, una de las principales preocupaciones de la industria es el estado económico global actual. Describió el futuro del sector como uno “fragmentado” debido a la incertidumbre económica que están enfrentando los consumidores de ropa por factores financieros y geopolíticos.
@@ -94,6 +95,8 @@ Por otro lado, los datos del PIB nacional también son de carácter público, cu
 
 
 ## Historia visual
+![alt text](<Entrega_01/Otros documentos/img/WhatsApp Image 2025-09-03 at 22.32.10.jpeg>)
+
 Lo novedoso de nuestro proyecto es que buscamos aterrizar a la realidad chilena un debate que ha sido planteado principalmente en contextos internacionales (como la teoría del Hemline Index en EE.UU. o estudios europeos que relacionan ciclos económicos con estilos de moda), pero que hasta ahora no ha tenido un análisis sistemático con datos en Chile.
 
 En segundo lugar, proponemos una metodología híbrida que cruza fuentes no tradicionales (utilizar Google Trends para medir el interés cultural y de consumo) con indicadores económicos estándar (PIB, inflación, estadísticas de importación y ventas retail). Esta combinación permitirá identificar correlaciones entre la estética de la moda femenina (comodidad vs. ostentación) y los ciclos económicos nacionales entre 2018 y 2025, un período especialmente interesante por incluir el estallido social, la pandemia y la inflación pospandemia.
