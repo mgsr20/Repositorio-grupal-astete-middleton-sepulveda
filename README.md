@@ -95,7 +95,7 @@ Por otro lado, los datos del PIB nacional también son de carácter público, cu
 
 
 ## Historia visual
-![alt text](<Entrega_01/Otros documentos/img/WhatsApp Image 2025-09-03 at 22.32.10.jpeg>)
+![alt text](<Entrega_01/Otros documentos/img/tendencias_por_prenda>)
 
 Lo novedoso de nuestro proyecto es que buscamos aterrizar a la realidad chilena un debate que ha sido planteado principalmente en contextos internacionales (como la teoría del Hemline Index en EE.UU. o estudios europeos que relacionan ciclos económicos con estilos de moda), pero que hasta ahora no ha tenido un análisis sistemático con datos en Chile.
 
