@@ -17,6 +17,8 @@ google shopping - https://trends.google.cl/trends/explore?cat=68&date=2014-01-01
 
 comodo
 
+![alt text](otros_documentos/image_2.png)
+
 ![alt text](otros_documentos/image.png)
 
 
@@ -27,7 +29,7 @@ https://trends.google.cl/trends/explore?cat=68&date=2014-01-01%202024-12-31&geo=
 
 formal
 
-![alt text](otros_documentos/image_2.png)
+
 
 
 
