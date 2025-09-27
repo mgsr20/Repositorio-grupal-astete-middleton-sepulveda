@@ -15,13 +15,13 @@ Fuente de los datos: https://si3.bcentral.cl/siete/ES/Siete/Cuadro/CAP_PRECIOS/M
 
 google shopping - https://trends.google.cl/trends/explore?cat=68&date=2014-01-01%202024-12-31&geo=CL&gprop=froogle&q=buzo,Poler%C3%B3n,Zapatillas,Top&hl=es
 
-comodo ![alt text](C:\Users\antom\OneDrive\Documentos\Repositorio-grupal-astete-middleton-sepulveda\Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image.png)
+comodo ![alt text](<Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image.png>)
 
 no me dejaba elegir buzo como prenda de vestir, por lo que utilicé la categoría término de búsqueda
 
 https://trends.google.cl/trends/explore?cat=68&date=2014-01-01%202024-12-31&geo=CL&gprop=froogle&q=falda,blazer,zapatos,blusa&hl=es
 
-formal [alt text](C:\Users\antom\OneDrive\Documentos\Repositorio-grupal-astete-middleton-sepulveda\Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image_2.png)
+formal [alt text](<Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image_2.png>)
 
 *con bláiser arrojaba problemas, x lo que usé blazer, aún así como término de búsqueda
 
