@@ -18,7 +18,7 @@ google shopping - https://trends.google.cl/trends/explore?cat=68&date=2014-01-01
 comodo
 
 ![
-](https://)](https://Entrega_02/Middleton_Integrante_02_Antonia_database_02/otros_documentos/image.png)
+](https://)Entrega_02/Middleton_Integrante_02_Antonia_database_02/otros_documentos/image.png
 
 no me dejaba elegir buzo como prenda de vestir, por lo que utilicé la categoría término de búsqueda
 
