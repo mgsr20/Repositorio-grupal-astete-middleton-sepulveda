@@ -17,16 +17,15 @@ google shopping - https://trends.google.cl/trends/explore?cat=68&date=2014-01-01
 
 comodo
 
-![
-](https://)Entrega_02/Middleton_Integrante_02_Antonia_database_02/otros_documentos/image.png
+!(https://)Entrega_02/Middleton_Integrante_02_Antonia_database_02/otros_documentos/image.png
 
 no me dejaba elegir buzo como prenda de vestir, por lo que utilicé la categoría término de búsqueda
 
 https://trends.google.cl/trends/explore?cat=68&date=2014-01-01%202024-12-31&geo=CL&gprop=froogle&q=falda,blazer,zapatos,blusa&hl=es
 
 formal
-![](https://Entrega_02/Middleton_Integrante_02_Antonia_database_02/otros_documentos/image_2.png)
-](https://)
+!(https://Entrega_02/Middleton_Integrante_02_Antonia_database_02/otros_documentos/image_2.png)
+
 
 *con bláiser arrojaba problemas, x lo que usé blazer, aún así como término de búsqueda
 
