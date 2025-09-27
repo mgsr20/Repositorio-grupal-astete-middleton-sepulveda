@@ -17,6 +17,8 @@ google shopping - https://trends.google.cl/trends/explore?cat=68&date=2014-01-01
 
 comodo
 
+![alt text](otros_documentos/image.png)
+
 !(<Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image_2.png>)
 
 no me dejaba elegir buzo como prenda de vestir, por lo que utilicé la categoría término de búsqueda
@@ -24,6 +26,9 @@ no me dejaba elegir buzo como prenda de vestir, por lo que utilicé la categorí
 https://trends.google.cl/trends/explore?cat=68&date=2014-01-01%202024-12-31&geo=CL&gprop=froogle&q=falda,blazer,zapatos,blusa&hl=es
 
 formal
+
+![alt text](otros_documentos/image_2.png)
+
 !(<Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image_2.png>)
 
 
