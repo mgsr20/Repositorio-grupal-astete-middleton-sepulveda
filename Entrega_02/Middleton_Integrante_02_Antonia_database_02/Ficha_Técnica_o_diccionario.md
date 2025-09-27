@@ -19,7 +19,7 @@ comodo
 
 ![alt text](otros_documentos/image.png)
 
-!(<Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image_2.png>)
+
 
 no me dejaba elegir buzo como prenda de vestir, por lo que utilicé la categoría término de búsqueda
 
@@ -29,7 +29,7 @@ formal
 
 ![alt text](otros_documentos/image_2.png)
 
-!(<Entrega_02\Middleton_Integrante_02_Antonia_database_02\otros_documentos\image_2.png>)
+
 
 
 *con bláiser arrojaba problemas, x lo que usé blazer, aún así como término de búsqueda
