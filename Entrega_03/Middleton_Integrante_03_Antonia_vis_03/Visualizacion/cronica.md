@@ -15,7 +15,7 @@ No podemos analizar la realidad económica chilena sin hacer hincapié en el est
 
 Al no poder alcanzar grandes logros financieros por el alto costo de la vida, el vestuario se dispone como un consuelo: ante una economía que asusta, la moda ofrece una micro-gratificación inmediata y accesible que nos permite mantener una sensación de normalidad y estatus.
 
-# El "Lipstick Effect" a la Chilena #
+## El "Lipstick Effect" a la Chilena ##
 
 Esta teoría postula que en tiempos de inflación y en los que realizar grandes compras, como una casa o un auto, se vuelven inaccesibles, los consumidores no dejan de gastar, sino que dirigen su consumo a pequeños “lujitos” que sí pueden acceder.
 
