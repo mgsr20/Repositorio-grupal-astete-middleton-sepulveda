@@ -1,0 +1,45 @@
+/*Color de fondo*/
+body {
+  background-color: #f9f6ee;
+}
+/*Color de texto y posicion centrada*/
+h1, h2, h3, p {
+  color: black;
+  text-align: center;
+  display: block;
+}
+
+/*Navegacion*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f7d0d0;
+}
+ul li {
+  float: center;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 10%;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #e18a97;
+}
+/*Centrar elemento*/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Poner elementos uno al lado del otro*/
+.inlineblock {
+  display: inline-block;
+}
+/*Seccion 1*/
+.seccion1 {
+background-image: url("url de foto");
+}
