@@ -23,7 +23,7 @@ ul li {
 }
 ul li a {
   display: block;
-  padding: 15px 15px;
+  padding: 50px;
   text-decoration: none;
 }
 ul li a:hover {
