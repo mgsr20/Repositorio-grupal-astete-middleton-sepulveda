@@ -6,6 +6,16 @@ body {
 h1, h2, h3, {
   color: black;
   text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*Navegacion*/
@@ -41,5 +51,5 @@ ul li a:hover {
 }
 /*Seccion 1*/
 .seccion1 {
-background-image: url("url de foto");
+background-image: url("https://github.com/mgsr20/Repositorio-grupal-astete-middleton-sepulveda/blob/main/Entrega_05/visualizaciones/imagenes/telas.png.png?raw=true");
 }
