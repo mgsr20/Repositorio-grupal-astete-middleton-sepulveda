@@ -22,7 +22,7 @@ ul li {
   float: left;
 }
 ul li a {
-  display: inline-block;
+  display: block;
   padding: 10%;
   text-decoration: none;
 }
