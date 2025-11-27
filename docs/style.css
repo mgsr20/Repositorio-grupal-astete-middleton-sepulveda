@@ -11,7 +11,7 @@ h1, h2, h3, {
 /*Navegacion*/
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 30%;
   padding: 0;
   overflow: hidden;
   background-color: #f7d0d0;
