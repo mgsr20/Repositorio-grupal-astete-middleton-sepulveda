@@ -3,7 +3,7 @@ body {
   background-color: #f9f6ee;
 }
 /*Color de texto y posicion centrada*/
-h1, h2, h3, p {
+h1, h2, h3, {
   color: black;
   text-align: center;
   display: block;
