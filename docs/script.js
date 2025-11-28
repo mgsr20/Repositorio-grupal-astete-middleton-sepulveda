@@ -9,7 +9,7 @@
         });
     });
 
-    // botones
+    // botones navegación
     document.getElementById('btn-vitrinear').addEventListener('click', () => {
         document.getElementById('datos')
             .scrollIntoView({ behavior: 'smooth' });

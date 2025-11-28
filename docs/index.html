@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Fonts -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
     <!-- Icons -->
@@ -29,7 +29,7 @@
 <!-- NOTIFICACIÓN CHECKOUT -->
 <div id="toast" class="toast" hidden>Tu compra está lista</div>
 
-<!-- ================= INICIO ================= -->
+<!-- ============ INICIO ============ -->
 <header id="inicio" class="main-header">
 
     <div class="header-banner">
@@ -44,7 +44,7 @@
     </div>
 
     <div class="header-logo">
-        <img src="imagenes/1 LOGO.png" alt="Logo" class="site-logo" />
+        <img src="imagenes/1LOGO.png" alt="Logo" class="site-logo" />
     </div>
 </header>
 
@@ -75,7 +75,7 @@
         </div>
     </section>
 
-    <!-- ================= DATOS ================= -->
+    <!-- ============ DATOS ============ -->
     <section id="datos" class="section-block">
         <div class="main-content-datos">
 
@@ -120,7 +120,7 @@
         </div>
     </section>
 
-    <!-- ================= HIPÓTESIS ================= -->
+    <!-- ============ HIPÓTESIS ============ -->
     <section id="hipotesis" class="section-block">
         <div class="main-content-porque">
 
@@ -183,6 +183,35 @@
         </div>
     </section>
 
+    <!-- ============ CONCLUSIONES ============ -->
+    <section id="conclusiones" class="section-block">
+        <div class="main-content">
+            <h1>Conclusiones</h1>
+
+            <div class="google-trends-graph-box">
+                <p>(Aquí irá un collage o gráfico final)</p>
+            </div>
+
+            <div class="context-paragraph">
+                <h2>Conclusiones finales</h2>
+                <p>Texto final del proyecto.</p>
+            </div>
+
+            <div class="small-gallery">
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+            </div>
+
+            <button class="button-primary" onclick="location.hash='#inicio'">
+                REGRESA A LA VITRINA <i class="fas fa-shopping-bag"></i>
+            </button>
+        </div>
+    </section>
+
 </main>
 
 <!-- JS -->
@@ -196,7 +225,7 @@
         });
     });
 
-    // botones
+    // botones navegación
     document.getElementById('btn-vitrinear').addEventListener('click', () => {
         document.getElementById('datos')
             .scrollIntoView({ behavior: 'smooth' });
@@ -224,6 +253,5 @@
 
 </body>
 </html>
-
 
 
