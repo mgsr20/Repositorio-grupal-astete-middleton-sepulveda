@@ -1,244 +1,230 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Date un Gustito</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Date un Gustito</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
+
 <body>
 
+<!-- NAVBAR -->
 <nav class="navbar">
-  <ul>
-    <li><a href="#inicio">Inicio</a></li>
-    <li><a href="#datos">Datos</a></li>
-    <li><a href="#hipotesis">¿Por qué ropa?</a></li>
-    <li><a href="#conclusiones">Conclusiones</a></li>
-  </ul>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#datos">Datos</a></li>
+        <li><a href="#hipotesis">¿Por qué ropa?</a></li>
+        <li><a href="#conclusiones">Conclusiones</a></li>
+    </ul>
 </nav>
 
-<div id="toast" class="toast" role="status" aria-live="polite" hidden>Tu compra está lista</div>
+<!-- TOAST DE CHECKOUT -->
+<div id="toast" class="toast" hidden>Tu compra está lista</div>
 
+<!-- ================= INICIO ================= -->
 <header id="inicio" class="main-header">
-  <div class="header-banner">
-    <img src="../Entrega_05/visualizaciones/imagenes/lazo.png" class="banner-image" alt="Lazo" />
-    <img src="../Entrega_05/visualizaciones/imagenes/sunglasses.png" class="banner-image" alt="Gafas" />
-    <img src="../Entrega_05/visualizaciones/imagenes/telajean.png" class="banner-image" alt="Tela Jean" />
 
-    <h1 class="main-title">
-      ¡Date un gustito! <br />
-      Un estudio de la economía y consumo chileno
-    </h1>
-  </div>
+    <div class="header-banner">
+        <img src="../Entrega_05/visualizaciones/imagenes/lazo.png" class="banner-image" alt="Lazo" />
+        <img src="../Entrega_05/visualizaciones/imagenes/sunglasses.png" class="banner-image" alt="Gafas" />
+        <img src="../Entrega_05/visualizaciones/imagenes/telajean.png" class="banner-image" alt="Tela Jean" />
 
-  <div class="header-logo">
-    <img src="../Entrega_05/visualizaciones/imagenes/1%20LOGO.png" alt="Logo" class="site-logo" />
-  </div>
+        <h1 class="main-title">
+            ¡Date un gustito! <br />
+            Un estudio de la economía y consumo chileno
+        </h1>
+    </div>
+
+    <div class="header-logo">
+        <img src="../Entrega_05/visualizaciones/imagenes/1 LOGO.png"
+             alt="Logo" class="site-logo" />
+    </div>
 </header>
 
 <main>
-  <section class="main-content" id="inicio-main">
-    <section class="intro-section">
-      <p>
-        BAJADA DEL PROYECTO. Aquí irá el texto contextual introductorio sobre el consumo, los “gustitos” y el comportamiento económico.
-      </p>
-    </section>
 
-    <section class="central-image-section">
-      <img src="../Entrega_05/visualizaciones/imagenes/bolsasujetada.png" alt="Compras" class="central-shopping-image" />
-    </section>
-
-    <section class="form-section">
-      <div class="capricho-form">
-        <label for="capricho-select">¿Cuál fue tu último capricho?</label>
-        <select id="capricho-select" name="capricho">
-          <option value="">Selecciona uno</option>
-          <option value="ropa">Ropa</option>
-          <option value="maquillaje">Maquillaje</option>
-          <option value="comida">Comida</option>
-          <option value="etc">Etc.</option>
-        </select>
-        <button id="btn-vitrinear" type="button" class="button-primary">
-          SIGUE VITRINEANDO <i class="fas fa-shopping-bag"></i>
-        </button>
-      </div>
-    </section>
-  </section>
-
-  <section id="datos" class="section-block">
-    <div class="main-content-datos">
-      <h1>¿Qué nos dicen los datos?</h1>
-      <section class="recuadros-container">
-        <div class="flourish-embed flourish-chart" data-src="visualisation/26514934">
-          <script src="https://public.flourish.studio/resources/embed.js"></script>
-        </div>
-        <div class="recuadro">
-          <h2>Indicadores Económicos</h2>
-          <p>
-            Aquí se presentarán datos clave de la economía chilena, como el PIB, empleo y variaciones. Entenderás cómo el contexto macroeconómico influye en tus decisiones.
-          </p>
-        </div>
-        <div class="recuadro">
-          <h2>Comparación de IPC</h2>
-          <p>
-            Evolución del IPC vestuario comparado con otros bienes. ¿Los gustitos son más caros hoy?
-          </p>
-        </div>
-      </section>
-
-      <section class="context-paragraph">
+    <!-- INTRO -->
+    <section class="main-content">
         <p>
-          La historia económica chilena marca patrones de consumo únicos. Cada era afecta cómo, cuándo y por qué compramos.
+            BAJADA DEL PROYECTO. Aquí irá el texto contextual introductorio sobre consumo y “gustitos”.
         </p>
 
-        <h2>Contexto Económico</h2>
+        <img src="../Entrega_05/visualizaciones/imagenes/bolsasujetada.png"
+             alt="Compras" class="central-shopping-image" />
 
-        <div class="flourish-embed flourish-chart" data-src="visualisation/26224111">
-          <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <div class="capricho-form">
+            <label>¿Cuál fue tu último capricho?</label>
+
+            <select id="capricho-select">
+                <option value="">Selecciona uno</option>
+                <option value="ropa">Ropa</option>
+                <option value="maquillaje">Maquillaje</option>
+                <option value="comida">Comida</option>
+            </select>
+
+            <button id="btn-vitrinear" class="button-primary">
+                SIGUE VITRINEANDO <i class="fas fa-shopping-bag"></i>
+            </button>
         </div>
-      </section>
+    </section>
 
-      <div class="button-section">
-        <button id="btn-probador" type="button" class="button-primary">
-          AL PROBADOR <i class="fas fa-shopping-bag"></i>
-        </button>
-      </div>
-    </div>
-  </section>
+    <!-- ================= DATOS ================= -->
+    <section id="datos" class="section-block">
+        <div class="main-content-datos">
 
-  <section id="hipotesis" class="section-block">
-    <div class="main-content-porque">
-      <header class="porque-header">
-        <h1 class="hypothesis-title">HIPÓTESIS</h1>
-        <p class="header-subtitle">¿Por qué elegimos un "gustito" y no otro?</p>
-      </header>
+            <h1>¿Qué nos dicen los datos?</h1>
 
-      <section class="comparative-imports-section">
-        <h2>Importaciones Comparativas</h2>
-        <div class="flourish-embed flourish-chart" data-src="visualisation/26515461">
-          <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <div class="recuadros-container">
+
+                <div class="flourish-embed flourish-chart" data-src="visualisation/26514934">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+
+                <div class="recuadro">
+                    <h2>Indicadores Económicos</h2>
+                    <p>
+                        Datos clave sobre economía chilena: PIB, empleo, variaciones y su impacto en hábitos de consumo.
+                    </p>
+                </div>
+
+                <div class="recuadro">
+                    <h2>Comparación de IPC</h2>
+                    <p>
+                        Evolución del IPC vestuario comparado con otros bienes. ¿Los gustitos son más caros hoy?
+                    </p>
+                </div>
+            </div>
+
+            <div class="context-paragraph">
+                <h2>Contexto Económico</h2>
+                <p>
+                    Las etapas económicas determinan patrones de consumo. Cada ciclo modifica lo que compramos.
+                </p>
+
+                <div class="flourish-embed flourish-chart" data-src="visualisation/26224111">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+            </div>
+
+            <button id="btn-probador" class="button-primary">
+                AL PROBADOR <i class="fas fa-shopping-bag"></i>
+            </button>
+
         </div>
-      </section>
+    </section>
 
-      <section class="visual-checklist-section">
-        <h2>Tu Checklist de Moda</h2>
+    <!-- ================= HIPÓTESIS ================= -->
+    <section id="hipotesis" class="section-block">
+        <div class="main-content-porque">
 
-        <div class="checklist-items">
-          <div class="checklist-item">
-            <img src="../Entrega_05/visualizaciones/imagenes/lazo.png" class="checklist-image" alt="lazo" />
-            <p>¿Conoces el origen de tu ropa?</p>
-            <input type="checkbox" />
-          </div>
+            <header class="porque-header">
+                <h1 class="hypothesis-title">HIPÓTESIS</h1>
+                <p>¿Por qué elegimos un “gustito” y no otro?</p>
+            </header>
 
-          <div class="checklist-item">
-            <img src="../Entrega_05/visualizaciones/imagenes/sunglasses.png" class="checklist-image" alt="gafas" />
-            <p>¿Prefieres calidad sobre cantidad?</p>
-            <input type="checkbox" />
-          </div>
+            <div class="comparative-imports-section">
+                <h2>Importaciones Comparativas</h2>
 
-          <div class="checklist-item">
-            <img src="../Entrega_05/visualizaciones/imagenes/telajean.png" class="checklist-image" alt="telajean" />
-            <p>¿Te importa el impacto ambiental?</p>
-            <input type="checkbox" />
-          </div>
+                <div class="flourish-embed flourish-chart" data-src="visualisation/26515461">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+            </div>
 
-          <div class="checklist-item">
-            <img src="../Entrega_05/visualizaciones/imagenes/telas.png" class="checklist-image" alt="telas" />
-            <p>¿Buscas alternativas éticas?</p>
-            <input type="checkbox" />
-          </div>
+            <div class="visual-checklist-section">
+                <h2>Tu Checklist de Moda</h2>
+
+                <div class="checklist-items">
+
+                    <div class="checklist-item">
+                        <img src="../Entrega_05/visualizaciones/imagenes/lazo.png" class="checklist-image" />
+                        <p>¿Conoces el origen de tu ropa?</p>
+                        <input type="checkbox" />
+                    </div>
+
+                    <div class="checklist-item">
+                        <img src="../Entrega_05/visualizaciones/imagenes/sunglasses.png" class="checklist-image" />
+                        <p>¿Prefieres calidad sobre cantidad?</p>
+                        <input type="checkbox" />
+                    </div>
+
+                    <div class="checklist-item">
+                        <img src="../Entrega_05/visualizaciones/imagenes/telajean.png" class="checklist-image" />
+                        <p>¿Te importa el impacto ambiental?</p>
+                        <input type="checkbox" />
+                    </div>
+
+                    <div class="checklist-item">
+                        <img src="../Entrega_05/visualizaciones/imagenes/telas.png" class="checklist-image" />
+                        <p>¿Buscas alternativas éticas?</p>
+                        <input type="checkbox" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="google-trends-section">
+                <h2>Ropa en Tendencia – Google Trends</h2>
+
+                <div class="google-trends-graph-box">
+                    <p>Visualización de tendencias de moda.</p>
+                </div>
+            </div>
+
+            <button id="btn-checkout" class="button-primary">
+                ES HORA DEL CHECKOUT <i class="fas fa-shopping-bag"></i>
+            </button>
+
         </div>
-      </section>
+    </section>
 
-      <section class="google-trends-section">
-        <h2>Ropa en Tendencia – Google Trends</h2>
-        <div class="google-trends-graph-box">
-          <p>Aquí se mostrará la visualización de Google Trends según lo indicado.</p>
-        </div>
-      </section>
-
-      <div class="button-section">
-        <button id="btn-checkout" type="button" class="button-primary">
-          ES HORA DEL CHECKOUT <i class="fas fa-shopping-bag"></i>
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section id="conclusiones" class="section-block conclusions-block">
-    <div class="main-content">
-      <h1>Conclusiones</h1>
-
-      <section>
-        <div class="google-trends-graph-box">
-          <p>Collage de diferentes personas probando estilos de ropa (placeholder).</p>
-        </div>
-      </section>
-
-      <section class="context-paragraph">
-        <h2>Conclusiones finales</h2>
-        <p>Aquí irá el texto final que sintetiza el proyecto.</p>
-      </section>
-
-      <section class="gallery-download">
-        <h2>Revisa los datos</h2>
-        <div class="small-gallery">
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div one=""></div>
-          <div class="gallery-item"></div>
-        </div>
-      </section>
-
-      <div class="button-section">
-        <button class="button-primary" onclick="location.hash = '#inicio'">
-          REGRESA A LA VITRINA <i class="fas fa-shopping-bag"></i>
-        </button>
-      </div>
-    </div>
-  </section>
 </main>
 
+<!-- JS -->
 <script>
-// Smooth scroll for nav links
-document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e){
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
-});
+    // navegación suave
+    document.querySelectorAll('nav a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+            e.preventDefault();
+            document.querySelector(a.getAttribute('href'))
+                .scrollIntoView({ behavior: 'smooth' });
+        });
+    });
 
-document.getElementById('btn-vitrinear').addEventListener('click', () => {
-  const d = document.getElementById('datos');
-  if (d) d.scrollIntoView({ behavior: 'smooth', block: 'start' });
-});
+    // botones
+    document.getElementById('btn-vitrinear').addEventListener('click', () => {
+        document.getElementById('datos')
+            .scrollIntoView({ behavior: 'smooth' });
+    });
 
-document.getElementById('btn-probador').addEventListener('click', () => {
-  const h = document.getElementById('hipotesis');
-  if (h) h.scrollIntoView({ behavior: 'smooth', block: 'start' });
-});
+    document.getElementById('btn-probador').addEventListener('click', () => {
+        document.getElementById('hipotesis')
+            .scrollIntoView({ behavior: 'smooth' });
+    });
 
-document.getElementById('btn-checkout').addEventListener('click', () => {
-  const toast = document.getElementById('toast');
-  toast.removeAttribute('hidden');
-  toast.classList.add('show');
-  setTimeout(() => {
-    toast.classList.remove('show');
-    toast.setAttribute('hidden', '');
-    const inicio = document.getElementById('inicio');
-    if (inicio) inicio.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, 1600);
-});
+    // checkout
+    document.getElementById('btn-checkout').addEventListener('click', () => {
+        const toast = document.getElementById('toast');
+        toast.hidden = false;
+        toast.classList.add('show');
+
+        setTimeout(() => {
+            toast.classList.remove('show');
+            toast.hidden = true;
+            document.getElementById('inicio')
+                .scrollIntoView({ behavior: 'smooth' });
+        }, 1500);
+    });
 </script>
 
 </body>
 </html>
+
 
 
