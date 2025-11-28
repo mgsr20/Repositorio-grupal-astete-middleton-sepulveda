@@ -7,8 +7,8 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -18,6 +18,7 @@
 
 <!-- NAVBAR -->
 <nav class="navbar">
+    <img src="imagenes/1LOGO.png" class="navbar-logo" alt="Logo">
     <ul>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#datos">Datos</a></li>
@@ -33,31 +34,35 @@
 <header id="inicio" class="main-header">
 
     <div class="header-banner">
-        <img src="imagenes/lazo.png" class="banner-image" alt="Lazo" />
-        <img src="imagenes/sunglasses.png" class="banner-image" alt="Gafas" />
-        <img src="imagenes/telajean.png" class="banner-image" alt="Tela Jean" />
 
+        <!-- IMAGEN GRANDE IZQUIERDA -->
+        <img src="imagenes/bolsasujetada.png" class="header-banner-left-img" alt="Bolsas Sujetada">
+
+        <!-- Imágenes decorativas -->
+        <img src="imagenes/lazo.png" class="banner-image" alt="Lazo">
+        <img src="imagenes/sunglasses.png" class="banner-image" alt="Gafas">
+        <img src="imagenes/telajean.png" class="banner-image" alt="Tela Jean">
+
+        <!-- Título central -->
         <h1 class="main-title">
             ¡Date un gustito! <br />
             Un estudio de la economía y consumo chileno
         </h1>
     </div>
 
-    <div class="header-logo">
-        <img src="imagenes/1LOGO.png" alt="Logo" class="site-logo" />
-    </div>
 </header>
 
 <main>
 
     <!-- INTRO -->
     <section class="main-content">
+        <h2>Introducción</h2>
+
         <p>
-            BAJADA DEL PROYECTO. Aquí irá el texto contextual introductorio sobre consumo y “gustitos”.
+            BAJADA DEL PROYECTO…
         </p>
 
-        <img src="imagenes/bolsasujetada.png"
-             alt="Compras" class="central-shopping-image" />
+        <img src="imagenes/bolsasujetada.png" class="central-shopping-image">
 
         <div class="capricho-form">
             <label>¿Cuál fue tu último capricho?</label>
@@ -75,183 +80,63 @@
         </div>
     </section>
 
-    <!-- ============ DATOS ============ -->
+    <!-- DATOS -->
     <section id="datos" class="section-block">
         <div class="main-content-datos">
-
             <h1>¿Qué nos dicen los datos?</h1>
 
-            <div class="recuadros-container">
-
-                <div class="flourish-embed flourish-chart" data-src="visualisation/26514934">
-                    <script src="https://public.flourish.studio/resources/embed.js"></script>
-                </div>
-
-                <div class="recuadro">
-                    <h2>Indicadores Económicos</h2>
-                    <p>
-                        Datos clave sobre economía chilena: PIB, empleo, variaciones y su impacto en hábitos de consumo.
-                    </p>
-                </div>
-
-                <div class="recuadro">
-                    <h2>Comparación de IPC</h2>
-                    <p>
-                        Evolución del IPC vestuario comparado con otros bienes. ¿Los gustitos son más caros hoy?
-                    </p>
-                </div>
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26514934">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
             </div>
 
-            <div class="context-paragraph">
-                <h2>Contexto Económico</h2>
-                <p>
-                    Las etapas económicas determinan patrones de consumo. Cada ciclo modifica lo que compramos.
-                </p>
-
-                <div class="flourish-embed flourish-chart" data-src="visualisation/26224111">
-                    <script src="https://public.flourish.studio/resources/embed.js"></script>
-                </div>
-            </div>
-
-            <button id="btn-probador" class="button-primary">
-                AL PROBADOR <i class="fas fa-shopping-bag"></i>
-            </button>
-
+            <button id="btn-probador" class="button-primary">AL PROBADOR</button>
         </div>
     </section>
 
-    <!-- ============ HIPÓTESIS ============ -->
+    <!-- HIPÓTESIS -->
     <section id="hipotesis" class="section-block">
         <div class="main-content-porque">
+            <h1>Hipótesis</h1>
 
-            <header class="porque-header">
-                <h1 class="hypothesis-title">HIPÓTESIS</h1>
-                <p>¿Por qué elegimos un “gustito” y no otro?</p>
-            </header>
-
-            <div class="comparative-imports-section">
-                <h2>Importaciones Comparativas</h2>
-
-                <div class="flourish-embed flourish-chart" data-src="visualisation/26515461">
-                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <div class="checklist-items">
+                <div class="checklist-item">
+                    <img src="imagenes/lazo.png" class="checklist-image">
+                    <p>¿Conoces el origen de tu ropa?</p>
+                    <input type="checkbox">
                 </div>
-            </div>
 
-            <div class="visual-checklist-section">
-                <h2>Tu Checklist de Moda</h2>
-
-                <div class="checklist-items">
-
-                    <div class="checklist-item">
-                        <img src="imagenes/lazo.png" class="checklist-image" />
-                        <p>¿Conoces el origen de tu ropa?</p>
-                        <input type="checkbox" />
-                    </div>
-
-                    <div class="checklist-item">
-                        <img src="imagenes/sunglasses.png" class="checklist-image" />
-                        <p>¿Prefieres calidad sobre cantidad?</p>
-                        <input type="checkbox" />
-                    </div>
-
-                    <div class="checklist-item">
-                        <img src="imagenes/telajean.png" class="checklist-image" />
-                        <p>¿Te importa el impacto ambiental?</p>
-                        <input type="checkbox" />
-                    </div>
-
-                    <div class="checklist-item">
-                        <img src="imagenes/telas.png" class="checklist-image" />
-                        <p>¿Buscas alternativas éticas?</p>
-                        <input type="checkbox" />
-                    </div>
+                <div class="checklist-item">
+                    <img src="imagenes/sunglasses.png" class="checklist-image">
+                    <p>¿Prefieres calidad?</p>
+                    <input type="checkbox">
                 </div>
-            </div>
 
-            <div class="google-trends-section">
-                <h2>Ropa en Tendencia – Google Trends</h2>
-
-                <div class="google-trends-graph-box">
-                    <p>Visualización de tendencias de moda.</p>
+                <div class="checklist-item">
+                    <img src="imagenes/telajean.png" class="checklist-image">
+                    <p>¿Te importa el impacto ambiental?</p>
+                    <input type="checkbox">
                 </div>
             </div>
 
             <button id="btn-checkout" class="button-primary">
-                ES HORA DEL CHECKOUT <i class="fas fa-shopping-bag"></i>
+                ES HORA DEL CHECKOUT
             </button>
-
         </div>
     </section>
 
-    <!-- ============ CONCLUSIONES ============ -->
+    <!-- CONCLUSIONES -->
     <section id="conclusiones" class="section-block">
         <div class="main-content">
             <h1>Conclusiones</h1>
-
-            <div class="google-trends-graph-box">
-                <p>(Aquí irá un collage o gráfico final)</p>
-            </div>
-
-            <div class="context-paragraph">
-                <h2>Conclusiones finales</h2>
-                <p>Texto final del proyecto.</p>
-            </div>
-
-            <div class="small-gallery">
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-            </div>
-
-            <button class="button-primary" onclick="location.hash='#inicio'">
-                REGRESA A LA VITRINA <i class="fas fa-shopping-bag"></i>
-            </button>
+            <p>Texto final…</p>
         </div>
     </section>
 
 </main>
 
-<!-- JS -->
-<script>
-    // navegación suave
-    document.querySelectorAll('nav a[href^="#"]').forEach(a => {
-        a.addEventListener('click', e => {
-            e.preventDefault();
-            document.querySelector(a.getAttribute('href'))
-                .scrollIntoView({ behavior: 'smooth' });
-        });
-    });
-
-    // botones navegación
-    document.getElementById('btn-vitrinear').addEventListener('click', () => {
-        document.getElementById('datos')
-            .scrollIntoView({ behavior: 'smooth' });
-    });
-
-    document.getElementById('btn-probador').addEventListener('click', () => {
-        document.getElementById('hipotesis')
-            .scrollIntoView({ behavior: 'smooth' });
-    });
-
-    // checkout
-    document.getElementById('btn-checkout').addEventListener('click', () => {
-        const toast = document.getElementById('toast');
-        toast.hidden = false;
-        toast.classList.add('show');
-
-        setTimeout(() => {
-            toast.classList.remove('show');
-            toast.hidden = true;
-            document.getElementById('inicio')
-                .scrollIntoView({ behavior: 'smooth' });
-        }, 1500);
-    });
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
+
 
 
