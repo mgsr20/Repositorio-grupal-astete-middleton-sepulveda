@@ -272,4 +272,49 @@ h1, h2{
     letter-spacing: 0.5px;
 }
 
+.main-header {
+    margin-top: 100px; /* para que el navbar fijo no tape el banner */
+}
+
+/* Banner rosado */
+.header-banner {
+    background: #f7d0d0;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* CENTRA el contenido */
+    gap: 25px;
+    position: relative;
+    padding: 0 60px;
+}
+
+/* Bolsa grande alineada a la izquierda */
+.banner-bag {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    height: 105%;
+    object-fit: contain;
+}
+
+/* Imágenes pequeñas */
+.banner-image {
+    width: 140px;
+    opacity: 0.85;
+}
+
+/* Título centrado */
+.main-title {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.25);
+    padding: 15px 25px;
+    border-radius: 8px;
+
+    font-family: 'Playfair Display', serif; /* tipografía tipo Vogue */
+    font-size: 2.4rem;
+    letter-spacing: 0.5px;
+}
 
