@@ -1,166 +1,236 @@
-<!DOCTYPE html>
-<<<<<<< HEAD
-    <html lang="es">
+<<!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Date un Gustito</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
+
 <body>
-    <!--Navegacion-->
-     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="datos.html">Datos</a></li>
-        <li><a href="porque.html">¿Por qué ropa?</a></li>
-    </ul> 
-    <!--Inicio-->
-    <!--Seccion 1-->
-    <div class="seccion1">
-        <h2>
-            Texto:
-        </h2>
-        <h1>
-            DATE UN GUSTITO
+
+<!-- ================= NAVIGATION ================= -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#datos">Datos</a></li>
+        <li><a href="#hipotesis">¿Por qué ropa?</a></li>
+        <li><a href="#conclusiones">Conclusiones</a></li>
+    </ul>
+</nav>
+
+<!-- ================= INICIO ================= -->
+<header id="inicio" class="main-header">
+    <div class="header-banner">
+        <img src="../visualizaciones/imagenes/lazo.png" class="banner-image" alt="Lazo" />
+        <img src="../visualizaciones/imagenes/sunglasses.png" class="banner-image" alt="Gafas" />
+        <img src="../visualizaciones/imagenes/telajean.png" class="banner-image" alt="Tela Jean" />
+
+        <h1 class="main-title">
+            ¡Date un gustito! <br />
+            Un estudio de la economía y consumo chileno
         </h1>
     </div>
-    <div>
-        <img class="center" src="foto persona de compras">
-        <p>Lorem ipsum</p>
-    </div>
-    <div class="center">
-        <h2>Checkboxes</h2>
-            <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
 
-            <form action="/action_page.php">
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-            <label for="vehicle1"> I have a bike</label><br>
-            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-            <label for="vehicle2"> I have a car</label><br>
-            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-            <label for="vehicle3"> I have a boat</label><br><br>
-            <input type="submit" value="Submit">
-            </form> 
+    <div class="header-logo">
+        <img src="../visualizaciones/imagenes/1LOGO.png" alt="Logo" class="site-logo" />
     </div>
-    <div>
-        <p>Lorem ipsum</p>
+</header>
+
+<main class="main-content">
+
+    <section class="intro-section">
+        <p>
+            BAJADA DEL PROYECTO. Aquí irá el texto contextual introductorio sobre el
+            consumo, los “gustitos” y el comportamiento económico.
+        </p>
+    </section>
+
+    <section class="central-image-section">
+        <img src="../visualizaciones/imagenes/bolsasujetada.png" alt="Compras" class="central-shopping-image" />
+    </section>
+
+    <section class="form-section">
+        <form class="capricho-form">
+            <label for="capricho-select">¿Cuál fue tu último capricho?</label>
+            <select id="capricho-select" name="capricho">
+                <option value="">Selecciona uno</option>
+                <option value="ropa">Ropa</option>
+                <option value="maquillaje">Maquillaje</option>
+                <option value="comida">Comida</option>
+                <option value="etc">Etc.</option>
+            </select>
+
+            <button type="submit" class="button-primary">
+                SIGUE VITRINEANDO <i class="fas fa-shopping-bag"></i>
+            </button>
+        </form>
+    </section>
+</main>
+
+<!-- ================= DATOS ================= -->
+<section id="datos" class="section-block">
+    <div class="main-content-datos">
+        <h1>¿Qué nos dicen los datos?</h1>
+
+        <section class="recuadros-container">
+
+            <!-- Flourish Chart: Indicadores Económicos -->
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26514934">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+
+            <div class="recuadro">
+                <h2>Indicadores Económicos</h2>
+                <p>
+                    Aquí se presentarán datos clave de la economía chilena, como el PIB, empleo
+                    y variaciones. Entenderás cómo el contexto macroeconómico influye en tus decisiones.
+                </p>
+            </div>
+
+            <div class="recuadro">
+                <h2>Comparación de IPC</h2>
+                <p>
+                    Evolución del IPC vestuario comparado con otros bienes. ¿Los gustitos son más caros hoy?
+                </p>
+            </div>
+        </section>
+
+        <section class="context-paragraph">
+            <p>
+                La historia económica chilena marca patrones de consumo únicos. Cada era afecta cómo,
+                cuándo y por qué compramos.
+            </p>
+
+            <h2>Contexto Económico</h2>
+
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26224111">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+        </section>
+
+        <div class="button-section">
+            <button class="button-primary">
+                AL PROBADOR <i class="fas fa-shopping-bag"></i>
+            </button>
+        </div>
     </div>
+</section>
+
+<!-- ================= HIPÓTESIS ================= -->
+<section id="hipotesis" class="section-block">
+    <main class="main-content-porque">
+
+        <header class="porque-header">
+            <h1 class="hypothesis-title">HIPÓTESIS</h1>
+            <p class="header-subtitle">¿Por qué elegimos un "gustito" y no otro?</p>
+        </header>
+
+        <section class="comparative-imports-section">
+            <h2>Importaciones Comparativas</h2>
+
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26515461">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+
+        </section>
+
+        <section class="visual-checklist-section">
+            <h2>Tu Checklist de Moda</h2>
+
+            <div class="checklist-items">
+
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/lazo.png" class="checklist-image" />
+                    <p>¿Conoces el origen de tu ropa?</p>
+                    <input type="checkbox" />
+                </div>
+
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/sunglasses.png" class="checklist-image" />
+                    <p>¿Prefieres calidad sobre cantidad?</p>
+                    <input type="checkbox" />
+                </div>
+
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/telajean.png" class="checklist-image" />
+                    <p>¿Te importa el impacto ambiental?</p>
+                    <input type="checkbox" />
+                </div>
+
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/telas.png" class="checklist-image" />
+                    <p>¿Buscas alternativas éticas?</p>
+                    <input type="checkbox" />
+                </div>
+
+            </div>
+        </section>
+
+        <section class="google-trends-section">
+            <h2>Ropa en Tendencia – Google Trends</h2>
+            <div class="google-trends-graph-box">
+                <p>Aquí se mostrará la visualización de Google Trends según lo indicado.</p>
+            </div>
+        </section>
+
+        <div class="button-section">
+            <button class="button-primary">
+                ES HORA DEL CHECKOUT <i class="fas fa-shopping-bag"></i>
+            </button>
+        </div>
+
+    </main>
+</section>
+
+<!-- ================= CONCLUSIONES ================= -->
+<section id="conclusiones" class="section-block conclusions-block">
+    <main class="main-content">
+
+        <h1>Conclusiones</h1>
+
+        <section>
+            <div class="google-trends-graph-box">
+                <p>Collage de diferentes personas probando estilos de ropa (placeholder).</p>
+            </div>
+        </section>
+
+        <section class="context-paragraph">
+            <h2>Conclusiones finales</h2>
+            <p>Aquí irá el texto final que sintetiza el proyecto.</p>
+        </section>
+
+        <section class="gallery-download">
+            <h2>Revisa los datos</h2>
+
+            <div class="small-gallery">
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+            </div>
+        </section>
+
+        <div class="button-section">
+            <button class="button-primary">
+                REGRESA A LA VITRINA <i class="fas fa-shopping-bag"></i>
+            </button>
+        </div>
+
+    </main>
+</section>
+
 </body>
-
-<head>
-    <title>Date un Gustito</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-</head>
-<body>
-    <!--Navegacion-->
-     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="datos.html">Datos</a></li>
-        <li><a href="porque.html">¿Por qué ropa?</a></li>
-    </ul> 
-    <!--Datos-->
-    <div class="center">
-        <h3>Lorem Ipsum</h3>
-        <img src="grafico">
-        <p>Lorem Ipsum</p>
-    </div>
-    <div>
-        <p>epocas economicas</p>
-    </div>
-        <div class="center">
-        <h3>Lorem Ipsum</h3>
-        <img src="grafico">
-        <p>Lorem Ipsum</p>
-    </div>
-     <div class="flourish-embed flourish-chart" data-src="visualisation/26224111"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/26224111/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-    <div>
-        <p>epocas economicas</p>
-    </div>
-    <div>
-        <img src="grafico">
-    </div>
-</body>
 </html>
-
-</html>
-=======
-<html lang="es">
- <head>
-  <title>
-   Date un Gustito
-  </title>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <link href="style.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com" rel="preconnect"/>
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
-  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0V4LLanw2qksYuRlEzO+tcaEPQogQ0KaoIF2xhiAGfE2/yXQo2b/xIpsKjA==" referrerpolicy="no-referrer" rel="stylesheet"/>
- </head>
- <body>
-  <header class="main-header">
-   <div class="header-banner">
-    <img alt="Lazo" class="banner-image lazo" src="/content/Imagenes/lazo.png.png"/>
-    <img alt="Sunglasses" class="banner-image sunglasses" src="/content/Imagenes/sunglasses.png.png"/>
-    <img alt="Tela Jean" class="banner-image telajean" src="/content/Imagenes/telajean.png.png"/>
-    <h1 class="main-title">
-     ¡Date un gustito! Un estudio de la economía y consumo chileno
-    </h1>
-   </div>
-   <div class="header-logo">
-    <img alt="Logo" class="site-logo" src="/content/Imagenes/1 LOGO.png"/>
-   </div>
-  </header>
-  <main class="main-content">
-   <section class="intro-section">
-    <p>
-    BAJADA
-    </p>
-   </section>
-   <section class="central-image-section">
-    <img alt="Persona comprando" class="central-shopping-image" src="/content/Imagenes/bolsasujetada.png.png"/>
-   </section>
-   <section class="form-section">
-    <form class="capricho-form">
-     <label for="capricho-select">
-      ¿Cuál fue tu último capricho?
-     </label>
-     <select id="capricho-select" name="capricho">
-      <option value="">
-       Selecciona uno
-      </option>
-      <option value="ropa">
-       Ropa
-      </option>
-      <option value="maquillaje">
-       Maquillaje
-      </option>
-      <option value="comida">
-       Comida
-      </option>
-      <option value="etc">
-       Etc.
-      </option>
-     </select>
-     <button class="continue-button" type="submit">
-      SIGUE VITRINEANDO
-      <i class="fas fa-shopping-bag">
-      </i>
-     </button>
-    </form>
-   </section>
-  </main>
- </body>
-</html>
->>>>>>> 07212632f2a64cc3d93007248643665cb8153df9
