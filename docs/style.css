@@ -1,52 +1,355 @@
-/*Color de fondo*/
+
+### Updated /content/Docs/style.css
+
+```css
+
+/* Global Styles */
 body {
   background-color: #f9f6ee;
-}
-/*Color de texto y posicion centrada*/
-h1, h2, h3, {
-  color: black;
-  text-align: center;
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p {
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/*Navegacion*/
-ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+/* Font Imports (already in HTML, but good to have here for reference or if moved) */
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  color: #333;
+}
+
+p, label, select, button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Navigation Styles (if a navigation bar is present, to be added later or integrated) */
+.navbar {
   background-color: #f7d0d0;
-  display: flex;
-  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
 }
-ul li {
-  float: left;
-}
-ul li a {
-  display: block;
-  padding: 50px;
+
+.navbar a {
+  color: #333;
   text-decoration: none;
-}
-ul li a:hover {
-  background-color: #e18a97;
-}
-/*Centrar elemento*/
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/*Poner elementos uno al lado del otro*/
-.inlineblock {
+  padding: 10px 15px;
   display: inline-block;
 }
-/*Seccion 1*/
+
+.navbar a:hover {
+  background-color: #e18a97;
+  color: white;
+}
+
+/* Button Styles */
+.button-primary {
+  background-color: #e18a97;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Added for spacing */
+}
+
+.button-primary:hover {
+  background-color: #f7d0d0;
+  color: #333;
+}
+
+/* Index.html Specific Styles */
+.main-header {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7d0d0; /* Fallback background */
+}
+
+.banner-image {
+  max-width: 30%;
+  height: auto;
+  opacity: 0.7;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.main-title {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background for readability */
+  border-radius: 10px;
+}
+
+.header-logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.site-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.main-content {
+  padding: 20px;
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.intro-section {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.central-image-section {
+  margin-bottom: 30px;
+}
+
+.central-shopping-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.capricho-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.capricho-form select {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  text-align-last: center;
+}
+
+/* Datos.html Specific Styles */
+.main-content-datos {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.recuadros-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.recuadro {
+  flex: 1;
+  min-width: 300px;
+  max-width: 45%; /* Adjusted for two columns with gap */
+  background-color: #f7d0d0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.key-divider {
+  width: 50px;
+  height: 50px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23e18a97"><path d="M12 1L9 5H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h6l3 4 3-4h6c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-6l-3-4zm0 6c1.38 0 2.5 1.12 2.5 2.5S13.38 12 12 12s-2.5-1.12-2.5-2.5S10.62 7 12 7zm-5 7H4v-2h3v2zm10 0h-3v-2h3v2z"/></svg>'); /* Example SVG for a key */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .recuadros-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .recuadro {
+    max-width: 90%;
+  }
+  .key-divider {
+    margin: 20px 0;
+  }
+}
+
+.context-paragraph {
+  margin: 30px auto;
+  text-align: left;
+  max-width: 800px;
+}
+
+.graph-placeholder {
+  margin: 30px 0;
+}
+
+.superposition-graph-box {
+  background-color: #f0f0f0;
+  border: 1px dashed #ccc;
+  padding: 50px 20px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+/* Porque.html Specific Styles */
+.main-content-porque {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.porque-header {
+  background-color: #e18a97; /* Stronger color for header */
+  color: white;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.hypothesis-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.comparative-imports-section {
+  margin-bottom: 30px;
+}
+
+.import-box {
+  background-color: #f7d0d0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.visual-checklist-section {
+  margin-bottom: 30px;
+}
+
+.checklist-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.checklist-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f6ee;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  width: 200px; /* Fixed width for consistency */
+  text-align: center;
+}
+
+.checklist-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.checklist-item input[type="checkbox"] {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.google-trends-section {
+  margin-bottom: 30px;
+}
+
+.google-trends-graph-box {
+  background-color: #f0f0f0;
+  border: 1px dashed #ccc;
+  padding: 50px 20px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+/* Common button section for consistent styling */
+.button-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+```
+
