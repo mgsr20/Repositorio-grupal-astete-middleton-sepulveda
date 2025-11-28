@@ -1,347 +1,197 @@
-/* Global Styles */
-body {
-  background-color: #f9f6ee;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Date un Gustito</title>
 
-/* Font Imports (already in HTML, but good to have here for reference or if moved) */
-/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Great Vibes', cursive;
-  text-align: center;
-  color: #333;
-}
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
-p, label, select, button {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-}
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
 
-/* Navigation Styles (if a navigation bar is present, to be added later or integrated) */
-.navbar {
-  background-color: #f7d0d0;
-  padding: 10px 0;
-  text-align: center;
-}
+<body>
 
-.navbar a {
-  color: #333;
-  text-decoration: none;
-  padding: 10px 15px;
-  display: inline-block;
-}
+<!-- ================= NAVIGATION ================= -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#datos">Datos</a></li>
+        <li><a href="#hipotesis">¿Por qué ropa?</a></li>
+        <li><a href="#conclusiones">Conclusiones</a></li>
+    </ul>
+</nav>
 
-.navbar a:hover {
-  background-color: #e18a97;
-  color: white;
-}
+<!-- ================= INICIO ================= -->
+<header id="inicio" class="main-header">
+    <div class="header-banner">
+        <img src="../visualizaciones/imagenes/lazo.png" class="banner-image" alt="Lazo" />
+        <img src="../visualizaciones/imagenes/sunglasses.png" class="banner-image" alt="Gafas" />
+        <img src="../visualizaciones/imagenes/telajean.png" class="banner-image" alt="Tela Jean" />
 
-/* Button Styles */
-.button-primary {
-  background-color: #e18a97;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin-top: 20px; /* Added for spacing */
-}
+        <h1 class="main-title">
+            ¡Date un gustito! <br />
+            Un estudio de la economía y consumo chileno
+        </h1>
+    </div>
 
-.button-primary:hover {
-  background-color: #f7d0d0;
-  color: #333;
-}
+    <div class="header-logo">
+        <img src="../visualizaciones/imagenes/1LOGO.png" alt="Logo" class="site-logo" />
+    </div>
+</header>
 
-/* Index.html Specific Styles */
-.main-header {
-  position: relative;
-  width: 100%;
-  height: 300px; /* Adjust height as needed */
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+<main class="main-content">
 
-.header-banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #f7d0d0; /* Fallback background */
-}
+    <section class="intro-section">
+        <p>
+            BAJADA DEL PROYECTO. Aquí irá el texto contextual introductorio sobre el
+            consumo, los “gustitos” y el comportamiento económico.
+        </p>
+    </section>
 
-.banner-image {
-  max-width: 30%;
-  height: auto;
-  opacity: 0.7;
-  object-fit: cover;
-  border-radius: 10px;
-}
+    <section class="central-image-section">
+        <img src="../visualizaciones/imagenes/bolsasujetada.png" alt="Compras" class="central-shopping-image" />
+    </section>
 
-.main-title {
-  position: absolute;
-  z-index: 10;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  font-size: 2.5rem;
-  padding: 20px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background for readability */
-  border-radius: 10px;
-}
+    <section class="form-section">
+        <form class="capricho-form">
+            <label for="capricho-select">¿Cuál fue tu último capricho?</label>
+            <select id="capricho-select" name="capricho">
+                <option value="">Selecciona uno</option>
+                <option value="ropa">Ropa</option>
+                <option value="maquillaje">Maquillaje</option>
+                <option value="comida">Comida</option>
+                <option value="etc">Etc.</option>
+            </select>
 
-.header-logo {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 10;
-}
+            <button type="submit" class="button-primary">
+                SIGUE VITRINEANDO <i class="fas fa-shopping-bag"></i>
+            </button>
+        </form>
+    </section>
+</main>
 
-.site-logo {
-  max-width: 100px;
-  height: auto;
-}
+<!-- ================= DATOS ================= -->
+<section id="datos" class="section-block">
+    <div class="main-content-datos">
+        <h1>¿Qué nos dicen los datos?</h1>
 
-.main-content {
-  padding: 20px;
-  max-width: 960px;
-  margin: 20px auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  text-align: center;
-}
+        <section class="recuadros-container">
 
-.intro-section {
-  margin-bottom: 30px;
-  text-align: left;
-}
+            <!-- Flourish Chart: Indicadores Económicos -->
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26514934">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
 
-.central-image-section {
-  margin-bottom: 30px;
-}
+            <div class="recuadro">
+                <h2>Indicadores Económicos</h2>
+                <p>
+                    Aquí se presentarán datos clave de la economía chilena, como el PIB, empleo
+                    y variaciones. Entenderás cómo el contexto macroeconómico influye en tus decisiones.
+                </p>
+            </div>
 
-.central-shopping-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
+            <div class="recuadro">
+                <h2>Comparación de IPC</h2>
+                <p>
+                    Evolución del IPC vestuario comparado con otros bienes. ¿Los gustitos son más caros hoy?
+                </p>
+            </div>
+        </section>
 
-.form-section {
-  margin-bottom: 30px;
-}
+        <section class="context-paragraph">
+            <p>
+                La historia económica chilena marca patrones de consumo únicos. Cada era afecta cómo,
+                cuándo y por qué compramos.
+            </p>
 
-.capricho-form label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-}
+            <h2>Contexto Económico</h2>
 
-.capricho-form select {
-  width: 100%;
-  max-width: 300px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  font-size: 1rem;
-  text-align-last: center;
-}
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26224111">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+        </section>
 
-/* Datos.html Specific Styles */
-.main-content-datos {
-  padding: 20px;
-  max-width: 1000px;
-  margin: 20px auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  text-align: center;
-}
+        <div class="button-section">
+            <button class="button-primary">
+                AL PROBADOR <i class="fas fa-shopping-bag"></i>
+            </button>
+        </div>
+    </div>
+</section>
 
-.recuadros-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  gap: 20px;
-  margin: 30px 0;
-  flex-wrap: wrap;
-}
+<!-- ================= HIPÓTESIS ================= -->
+<section id="hipotesis" class="section-block">
+    <main class="main-content-porque">
 
-.recuadro {
-  flex: 1;
-  min-width: 300px;
-  max-width: 45%; /* Adjusted for two columns with gap */
-  background-color: #f7d0d0;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  text-align: left;
-}
+        <header class="porque-header">
+            <h1 class="hypothesis-title">HIPÓTESIS</h1>
+            <p class="header-subtitle">¿Por qué elegimos un "gustito" y no otro?</p>
+        </header>
 
-.key-divider {
-  width: 50px;
-  height: 50px;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23e18a97"><path d="M12 1L9 5H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h6l3 4 3-4h6c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-6l-3-4zm0 6c1.38 0 2.5 1.12 2.5 2.5S13.38 12 12 12s-2.5-1.12-2.5-2.5S10.62 7 12 7zm-5 7H4v-2h3v2zm10 0h-3v-2h3v2z"/></svg>'); /* Example SVG for a key */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 10px;
-  flex-shrink: 0;
-}
+        <section class="comparative-imports-section">
+            <h2>Importaciones Comparativas</h2>
 
-@media (max-width: 768px) {
-  .recuadros-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .recuadro {
-    max-width: 90%;
-  }
-  .key-divider {
-    margin: 20px 0;
-  }
-}
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26515461">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
 
-.context-paragraph {
-  margin: 30px auto;
-  text-align: left;
-  max-width: 800px;
-}
+        </section>
 
-.graph-placeholder {
-  margin: 30px 0;
-}
+        <section class="visual-checklist-section">
+            <h2>Tu Checklist de Moda</h2>
 
-.superposition-graph-box {
-  background-color: #f0f0f0;
-  border: 1px dashed #ccc;
-  padding: 50px 20px;
-  min-height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-style: italic;
-  border-radius: 8px;
-}
+            <div class="checklist-items">
 
-/* Porque.html Specific Styles */
-.main-content-porque {
-  padding: 20px;
-  max-width: 1000px;
-  margin: 20px auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  text-align: center;
-}
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/lazo.png" class="checklist-image" />
+                    <p>¿Conoces el origen de tu ropa?</p>
+                    <input type="checkbox" />
+                </div>
 
-.porque-header {
-  background-color: #e18a97; /* Stronger color for header */
-  color: white;
-  padding: 40px 20px;
-  margin-bottom: 30px;
-  border-radius: 8px;
-}
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/sunglasses.png" class="checklist-image" />
+                    <p>¿Prefieres calidad sobre cantidad?</p>
+                    <input type="checkbox" />
+                </div>
 
-.hypothesis-title {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  color: white;
-}
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/telajean.png" class="checklist-image" />
+                    <p>¿Te importa el impacto ambiental?</p>
+                    <input type="checkbox" />
+                </div>
 
-.header-subtitle {
-  font-size: 1.2rem;
-  color: white;
-}
+                <div class="checklist-item">
+                    <img src="../visualizaciones/imagenes/telas.png" class="checklist-image" />
+                    <p>¿Buscas alternativas éticas?</p>
+                    <input type="checkbox" />
+                </div>
 
-.comparative-imports-section {
-  margin-bottom: 30px;
-}
+            </div>
+        </section>
 
-.import-box {
-  background-color: #f7d0d0;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: left;
-  max-width: 700px;
-  margin: 0 auto;
-}
+        <section class="google-trends-section">
+            <h2>Ropa en Tendencia – Google Trends</h2>
+            <div class="google-trends-graph-box">
+                <p>Aquí se mostrará la visualización de Google Trends según lo indicado.</p>
+            </div>
+        </section>
 
-.visual-checklist-section {
-  margin-bottom: 30px;
-}
+        <div class="button-section">
+            <button class="button-primary">
+                ES HORA DEL CHECKOUT <i class="fas fa-shopping-bag"></i>
+            </button>
+        </div>
 
-.checklist-items {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 20px;
-}
+    </main>
+</section>
 
-.checklist-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f9f6ee;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  width: 200px; /* Fixed width for consistency */
-  text-align: center;
-}
-
-.checklist-image {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  margin-bottom: 10px;
-}
-
-.checklist-item input[type="checkbox"] {
-  margin-top: 10px;
-  width: 20px;
-  height: 20px;
-}
-
-.google-trends-section {
-  margin-bottom: 30px;
-}
-
-.google-trends-graph-box {
-  background-color: #f0f0f0;
-  border: 1px dashed #ccc;
-  padding: 50px 20px;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-style: italic;
-  border-radius: 8px;
-}
-
-/* Common button section for consistent styling */
-.button-section {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
+</body>
+</html>
