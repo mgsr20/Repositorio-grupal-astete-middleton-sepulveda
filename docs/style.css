@@ -138,16 +138,45 @@ h1, h2{
   transform:translateY(5%);
 }
 
-/* TÍTULO sobre banner */
-.main-title{
-  color:#ffffff;
-  background:rgba(0,0,0,.25);
-  padding:14px 20px;
-  border-radius:8px;
-  font-size:2rem;
-  text-shadow:1px 1px 4px rgba(0,0,0,.4);
-  z-index:2;
+/* Título del banner */
+.main-title {
+    text-align: center;
+    z-index: 10;
+    background: rgba(0,0,0,0.20);
+    padding: 18px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 1.2;
 }
+
+/* “date un gustito” → estilo Vogue */
+.gustito-main {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2rem;   /* GRANDE */
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+/* “date un” en negro oscuro */
+.gustito-prefix {
+    color: #1e1e1e; /* negro del diseño */
+}
+
+/* “gustito” en beige claro */
+.gustito-word {
+    color: #fcefe9; /* beige claro del fondo rosado */
+}
+
+/* Subtítulo → tipografía cuerpo */
+.gustito-sub {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
 
 .header-logo{
   position:absolute;
