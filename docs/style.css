@@ -426,3 +426,9 @@ h1, h2{
     padding: 6px 12px;
     border-radius: 6px;
 }
+
+.button-primary {
+    margin: 20px auto 0 auto;
+    display: block;
+    width: fit-content;
+}
