@@ -317,4 +317,63 @@ h1, h2{
     font-size: 2.4rem;
     letter-spacing: 0.5px;
 }
+/* ================= COLLAGE EDITORIAL ================= */
+
+.collage-left,
+.collage-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 160px; /* margen lateral del collage */
+    pointer-events: none; /* NO bloquea clics del contenido */
+    z-index: -1; /* detrás del contenido */
+}
+
+.collage-left { left: 0; }
+.collage-right { right: 0; }
+
+/* Cada pieza del collage */
+.collage-item {
+    width: 150px;
+    opacity: 0.9;
+    position: absolute;
+    filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.15));
+}
+
+/* Distribución estética: izquierda */
+.item-l1 { top: 80px; left: 10px; transform: rotate(-8deg); }
+.item-l2 { top: 320px; left: -5px; transform: rotate(6deg); }
+.item-l3 { top: 560px; left: 20px; transform: rotate(-4deg); }
+
+/* Distribución estética: derecha */
+.item-r1 { top: 140px; right: 5px; transform: rotate(5deg); }
+.item-r2 { top: 380px; right: -10px; transform: rotate(-6deg); }
+.item-r3 { top: 620px; right: 8px; transform: rotate(3deg); }
+
+/* ================= FADE-IN ANIMATION ================= */
+
+@keyframes fadeInSoft {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.97);
+    }
+    100% {
+        opacity: 0.9;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.collage-item {
+    animation: fadeInSoft 1.4s ease-out forwards;
+    opacity: 0; /* start hidden */
+}
+
+/* delays suaves para que no aparezcan todos iguales */
+.item-l1 { animation-delay: .2s; }
+.item-l2 { animation-delay: .45s; }
+.item-l3 { animation-delay: .7s; }
+
+.item-r1 { animation-delay: .3s; }
+.item-r2 { animation-delay: .55s; }
+.item-r3 { animation-delay: .8s; }
 
