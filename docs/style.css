@@ -686,6 +686,7 @@ h1, h2{
 
 /* DROP CAP ESTILO REVISTA */
 .magazine-dynamic p::first-letter,
+.bajada-magazine p: :first-letter,
 .magazine-paragraph p::first-letter {
     font-family: 'Playfair Display', serif; /* mismo estilo Vogue */
     font-size: 3.8rem;
