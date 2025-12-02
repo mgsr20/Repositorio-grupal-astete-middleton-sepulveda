@@ -699,3 +699,26 @@ h1, h2{
     color: #d69a96; /* rosado  */
 }
 
+.collage-left, .collage-right {
+    position: fixed;
+    top: 0;
+    width: 120px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.collage-left { left: 0; }
+.collage-right { right: 0; }
+
+.float-img {
+    width: 110px;
+    margin: 40px 0;
+    animation: float 4s ease-in-out infinite alternate;
+}
+
+.float-img.small { width: 80px; }
+
+@keyframes float {
+    0% { transform: translateY(0) rotate(-1deg); }
+    100% { transform: translateY(15px) rotate(1deg); }
+}
