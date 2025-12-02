@@ -572,3 +572,34 @@ h1, h2{
     color: #eab8ad;
     font-weight: 700;
 }
+.magazine-paragraph {
+    max-width: 760px;
+    margin: 40px auto 60px auto;
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
+
+.pink {
+    color: #eab8ad;
+    font-weight: 700;
+}
+
+.magazine-paragraph {
+    max-width: 760px;
+    margin: 40px auto 60px auto;
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif';
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
+
+.pink {
+    color: #eab8ad;
+    font-weight: 700;
+}
