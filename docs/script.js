@@ -33,29 +33,3 @@ document.getElementById('btn-checkout').addEventListener('click', () => {
 });
 
 
-/* ========= LLUVIA DE GIFS AL ELEGIR VESTUARIO ========= */
-
-function startGifRain() {
-    for (let i = 0; i < 18; i++) {
-        const gif = document.createElement("img");
-        gif.src = "resources/9.gif";   // tu GIF
-        gif.className = "rain-gif";
-
-        gif.style.left = Math.random() * 100 + "vw";
-        gif.style.animationDuration = (2 + Math.random() * 3) + "s";
-        gif.style.transform = `scale(${0.6 + Math.random() * 0.7})`;
-
-        document.body.appendChild(gif);
-
-        setTimeout(() => gif.remove(), 5000);
-    }
-}
-
-document.querySelectorAll("input[name='capricho']").forEach(option => {
-    option.addEventListener("change", () => {
-        if (option.value === "vestuario") {
-            startGifRain();
-        }
-    });
-});
-
