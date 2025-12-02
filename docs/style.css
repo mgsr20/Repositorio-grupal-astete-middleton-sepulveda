@@ -603,3 +603,22 @@ h1, h2{
     color: #eab8ad;
     font-weight: 700;
 }
+
+/* ================= HIPÓTESIS ESTILO REVISTA ================= */
+
+.hipotesis-text {
+    max-width: 900px;
+    margin: 60px auto 70px auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;  /* estilo editorial */
+    font-size: 2.1rem;
+    line-height: 1.35;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+/* rosado oscuro de tu paleta */
+.darkpink {
+    color: #d69a96;   /* tono más oscuro */
+    font-weight: 800;
+}
