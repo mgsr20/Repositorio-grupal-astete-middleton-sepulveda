@@ -303,6 +303,38 @@ h1, h2{
     padding: 0 60px;
 }
 
+.header-banner {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Imágenes decorativas a los costados */
+.bolsa-left, .bolsa-right {
+    position: absolute;
+    top: 50%;
+    width: 180px;               /* AJUSTABLE */
+    opacity: 0.85;              /* para estilo recorte revista */
+    transform: translateY(-50%);
+    z-index: 1;                 /* debajo del título */
+    pointer-events: none;
+}
+
+.bolsa-left {
+    left: -40px;                /* AJUSTA PARA que quede justo al borde */
+}
+
+.bolsa-right {
+    right: -40px;               /* AJUSTA PARA que quede justo al borde */
+}
+
+/* Asegurar que el título esté encima */
+.main-title {
+    position: relative;
+    z-index: 10;
+}
+
+
 /* Bolsa grande alineada a la izquierda */
 .banner-bag {
     position: absolute;
