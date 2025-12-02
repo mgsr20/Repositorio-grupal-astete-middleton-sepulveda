@@ -246,6 +246,10 @@ h1, h2{
 
 .section-block{padding-top:30px;}
 
+.section-block {
+    margin-top: 160px;
+}
+
 .navbar {
     position: fixed;
     top: 0;
