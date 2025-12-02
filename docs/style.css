@@ -684,16 +684,18 @@ h1, h2{
     100% { transform: scale(1); opacity: 0.85; }
 }
 
-/* DROP CAP ESTILO REVISTA */
-.magazine-dynamic p::first-letter,
-.bajada-magazine p: :first-letter,
-.magazine-paragraph p::first-letter {
-    font-family: 'Playfair Display', serif; /* mismo estilo Vogue */
-    font-size: 3.8rem;
+/* DROP CAP */
+.bajada-magazine p::first-letter,
+.datos-intro-magazine p::first-letter,
+.magazine-paragraph p::first-letter,
+.magazine-dynamic p::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.9rem;
     font-weight: 900;
     float: left;
-    line-height: 0.8;
-    padding-right: 8px;
-    padding-top: 6px;
-    color: #d69a96; /* rosado elegante de tu paleta */
+    line-height: 0.78;
+    padding-right: 10px;
+    padding-top: 4px;
+    color: #d69a96; /* rosado  */
 }
+
