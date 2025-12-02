@@ -32,7 +32,7 @@ document.getElementById('btn-checkout').addEventListener('click', () => {
     }, 1500);
 });
 
-<script>
+
 /* ========= LLUVIA DE GIFS AL ELEGIR VESTUARIO ========= */
 
 function startGifRain() {
@@ -58,4 +58,4 @@ document.querySelectorAll("input[name='capricho']").forEach(option => {
         }
     });
 });
-</script>
+
