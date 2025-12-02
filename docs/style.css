@@ -532,3 +532,23 @@ h1, h2{
 .recuadros-container {
     margin-top: 50px !important;
 }
+
+/* ===================== BAJADA EDITORIAL DEL INICIO ===================== */
+
+.bajada-magazine {
+    max-width: 780px;
+    margin: 60px auto 80px auto;    /* espacio antes y después */
+    column-count: 2;
+    column-gap: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.08rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* reutilizamos la clase .pink */
+.pink {
+    color: #eab8ad;     /* rosado de paleta */
+    font-weight: 700;
+}
+
