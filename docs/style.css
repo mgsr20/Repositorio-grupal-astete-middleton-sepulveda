@@ -167,14 +167,13 @@ h1, h2{
     color: #fcefe9; /* beige claro del fondo rosado */
 }
 
-/* Subtítulo → tipografía cuerpo */
+/* Subtítulo → tipografía cuerpo (MEJORADO) */
 .gustito-sub {
     display: block;
-    margin-top: 10px;
+    margin-top: 12px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
-    color: #1e1e1e;
-    font-weight: 400;
+    font-size: 1.35rem;    /* MÁS GRANDE */
+    color: #1e1e1
 }
 
 
@@ -505,3 +504,22 @@ h1, h2{
 .corner-block-top-right    { top: 10px; right: 10px; }
 .corner-block-bottom-left  { bottom: 10px; left: 10px; }
 .corner-block-bottom-right { bottom: 10px; right: 10px; }
+
+/* ==================== LLUVIA DE GIFS ==================== */
+
+.rain-gif {
+    position: fixed;
+    top: -120px;
+    width: 65px;
+    opacity: 0.9;
+    pointer-events: none;
+    z-index: 9999;
+    animation: gifFall linear forwards;
+}
+
+@keyframes gifFall {
+    to {
+        transform: translateY(120vh) rotate(15deg);
+        opacity: 0.3;
+    }
+}
