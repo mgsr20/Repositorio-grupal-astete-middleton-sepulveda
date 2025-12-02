@@ -508,21 +508,27 @@ h1, h2{
 .corner-block-bottom-left  { bottom: 10px; left: 10px; }
 .corner-block-bottom-right { bottom: 10px; right: 10px; }
 
-/* ==================== LLUVIA DE GIFS ==================== */
 
-.rain-gif {
-    position: fixed;
-    top: -120px;
-    width: 65px;
-    opacity: 0.9;
-    pointer-events: none;
-    z-index: 9999;
-    animation: gifFall linear forwards;
+/* ===================== ESTILO REVISTA PARA INTRO DE DATOS ===================== */
+
+.datos-intro-magazine {
+    max-width: 750px;
+    margin: 60px auto;     /* espacio antes del texto */
+    column-count: 2;       /* DOS COLUMNAS EDITORIALES */
+    column-gap: 50px;      /* separación entre columnas */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    text-align: justify;
 }
 
-@keyframes gifFall {
-    to {
-        transform: translateY(120vh) rotate(15deg);
-        opacity: 0.3;
-    }
+/* palabras rosadas */
+.pink {
+    color: #eab8ad;        /* el rosado de tu paleta */
+    font-weight: 700;
+}
+
+/* crear espacio ANTES del gráfico siguiente */
+.recuadros-container {
+    margin-top: 70px !important;
 }
