@@ -2,7 +2,7 @@
 
 ## Diseño de la información e interacción *(Estructura)*
 
-Basándonos en el prototipo de wireframe y las correcciones de aquella entrega, terminamos por definir el estilo de una revista digital. A diferencia de una propuesta compleatmente técnica, la webstory se enfoca en acercar los datos y gráficos económicos, los que muchas veces se sienten lejanos e incomprensibles, a través de la identidad visual con la que hemos trabajado durante el semestre.
+Basándonos en el prototipo de wireframe y las correcciones de aquella entrega, terminamos por definir el estilo de una revista digital. A diferencia de una propuesta compleatmente técnica, la webstory se enfoca en acercar los datos y gráficos económicos, los que muchas veces se sienten lejanos e incomprensibles, a través de la identidad visual de una editorial de revista.  
 
 ### Recorrido del usuario
 
@@ -32,7 +32,7 @@ La síntesis de la webstory no es una conclusión completamente acádemica, y ce
 
 ### Paleta de colores
 
-La identidad se compone por una paleta de colores rosas y beiges claros, todos en tonos cálidos. El uso de estos colores permite tener mayor contraste con las imágenes que vayamos utilizando, permitiendo también que el negro destaque cuando sea hora de presentar datos más duros.
+La identidad se compone por una paleta de colores rosas y beiges claros, todos en tonos cálidos. El uso de estos colores permite tener mayor contraste con las imágenes que vayamos utilizando, permitiendo también que el negro destaque cuando sea hora de presentar datos más duros. 
 
 ![Rosa](https://img.shields.io/badge/_-#E05297)
 
