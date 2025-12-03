@@ -4,9 +4,9 @@
 
 ## **Resumen del reportaje**
 
-En Chile, incluso en un contexto económico marcado por desaceleración, crisis, pandemia e inflación, el consumo de moda se mantiene sorprendentemente estable. Los datos muestran que las ventas de vestuario resisten, el IPC de ropa y calzado sube menos que el de otros “gustitos”, y las importaciones de moda siguen siendo altas. 
+En el Chile de la última década, incluso en un contexto económico con altibajos, marcado por desaceleración, crisis, una pandemia e inflación, el consumo de vestuario se mantiene estable. Los datos económicos muestran que **las ventas de vestuario resisten, el IPC de ropa y calzado sube menos que el de otros “gustitos” (incluso tendiendo a un decrecimiento), y las importaciones de moda siguen siendo proporcionalmente altas.** 
 
-¿La señal? Cuando los grandes gastos se vuelven difíciles, muchas y muchos chilenos optan por **pequeños caprichos accesibles** (una prenda, un perfume, un par de zapatillas) como una manera de darse ánimo sin desordenar el presupuesto. Porque, incluso en tiempos apretados, siempre queda espacio para un gustito.
+¿Nuestra interpretación? Cuando los grandes gastos se vuelven difíciles, muchas y muchos chilenos parecen optar por priorizar la moda como **pequeños caprichos accesibles** (una prenda, un perfume, un par de zapatillas). Porque, incluso en tiempos apretados, siempre queda espacio para un gustito.
 
 ---
 ## **Análisis de Hipótesis**
@@ -34,8 +34,3 @@ Además, incorporamos datos de **importaciones de vestuario**, que reforzaron es
 | Desarrollo sitio web                       | Sí        | -        | -       |
 | Readme general y redacción webstory    | -         | Sí       | -       |
 | Subcarpetas visualizaciones y diseño       | -         | -        | Sí      |
-
-Gráficos:
-Magdalena: IPC y Google Trends
-Benjamín: Importaciones
-Antonia: Índice de ventas
