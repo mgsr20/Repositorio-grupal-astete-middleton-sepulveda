@@ -801,3 +801,41 @@ h1, h2{
     40% { transform: scale(0.9) rotate(0deg); }
     100% { transform: scale(1.08) rotate(0deg); }
 }
+/* ============================================================
+   ⭐ COLLAGE EDITORIAL ENTRE SECCIONES (VOGUE STYLE)
+   ============================================================ */
+
+.section-collage {
+    width: 100%;
+    height: 220px;
+    margin: 80px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collage-piece {
+    position: absolute;
+    width: 140px;
+    opacity: 0;
+    animation: collageIn 1.2s ease forwards;
+}
+
+/* Animación suave de entrada */
+@keyframes collageIn {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.85) rotate(-4deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1) rotate(0deg);
+    }
+}
+
+/* POSICIONES EDITORIALES */
+.piece-1 { top: 10px; left: 18%; transform: rotate(-6deg); animation-delay: 0.1s; }
+.piece-2 { top: 40px; right: 20%; transform: rotate(5deg); animation-delay: 0.25s; }
+.piece-3 { bottom: 0; left: 35%; transform: rotate(-3deg); animation-delay: 0.4s; }
+.piece-4 { bottom: -10px; right: 32%; transform: rotate(4deg); animation-delay: 0.55s; }
