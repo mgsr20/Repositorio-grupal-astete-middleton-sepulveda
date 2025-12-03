@@ -18,18 +18,6 @@ Para evocar el sentimiento de revista de moda, toda la narración del proyecto s
 
 Escribir el texto en dos columnas también logra condensar el contenido y hacerlo más "digerible", pues no da la sensación de estar leyendo mucho texto.
 
-##### Contexto y conflicto
-
-El **primer gráfico** que se presenta es en tonos oscuros, contextualizando la temporalidad del estudio, y la **crisis financiera** en la que está inserto, mostrando como el costo de vida ha aumentado.
-
-Aquí utilizamos gráficos y datos del **IPC**, con su debida bajada explicativa, siempre teniendo en mente que el foco es lograr que el usuario se interese en enganchar con el contexto económico que tratamos.
-
-El **segundo gráfico** viene a continuación, presentando la contradicción que no se espera: a pesar de la crisis, la gente continúa comprando. Aquí se explica y aplica la teoría del "Lipstick effect". 
-
-Presentamos la ropa como el refugio emocional en el que la población se apoya, reforzando el vínculo identitario de las compras
-
-Aquí utilizamos el gráfico del **IAC** y los **informes de importaciones**.
-
 ##### Cierre
 
 La síntesis de la webstory no es una conclusión completamente acádemica, y cerrará con un *"call to action"*, un carrito de compras vacío que nos llevará de vuelta al incio, dando la oportunidad de comenzar la lectura nuevamente.
