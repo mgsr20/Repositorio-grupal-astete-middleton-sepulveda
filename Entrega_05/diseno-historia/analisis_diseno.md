@@ -12,6 +12,12 @@ Establecimos el scroll como una experiencia narrativa lineal, la que imita un *"
 
 Lo primero que aparece al entrar a la página es encontrarse con el título de estido *editorial*, dando inicio a una *experiencia* narrativa con la que el usuario **engancha**, más que directamente encontrarse con gráficos e informes financieros. 
 
+##### Estilo narrativo
+
+Para evocar el sentimiento de revista de moda, toda la narración del proyecto se enfocó en ser cercana o chistosa. Tratamos de crear un vínculo con el lector apelando a la empatía (*Hemos estado ahí*) o haciéndolo partícipe de la narración también (*¿Cuál fue tu último capricho?*). 
+
+Escribir el texto en dos columnas también logra condensar el contenido y hacerlo más "digerible", pues no da la sensación de estar leyendo mucho texto.
+
 ##### Contexto y conflicto
 
 El **primer gráfico** que se presenta es en tonos oscuros, contextualizando la temporalidad del estudio, y la **crisis financiera** en la que está inserto, mostrando como el costo de vida ha aumentado.
