@@ -15,15 +15,15 @@ La estrategia visual de las visualizaciones del proyecto se alinean con las del 
 ### Visualización 1: IVCM
 - Fuente de los datos: Instituto Nacional de Estadísticas -  https://www.ine.gob.cl/estadisticas/economia/comercio-servicios-y-turismo .
 - Alcance de los datos: La cobertura temporal recolectada es mensual, y cuenta con los años de 2014 hasta el 2024.
-- Variables incorporadas: variable | descripción.
+- Variables incorporadas: Volumen Físico de Ventas | Rango temporal.
 
 ### Visualización 2: IPC
 - Fuente de los datos: Banco Central -  https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_PRECIOS/MN_CAP_PRECIOS/IPC_DIV_2023/638415289755016902?cbFechaInicio=2024&cbFechaTermino=2024&cbFrecuencia=MONTHLY&cbCalculo=NONE&cbFechaBase= .
 - Alcance de los datos: La cobertura temporal recolectada es mensual, y cuenta con los años de 2014 hasta el 2024.
-- Variables incorporadas: variable | descripción.
+- Variables incorporadas: Variación promedio | Rango temporal.
 
 
 ### Visualización 3: Importaciones Comparativas
 - Fuente de los datos: Banco Central -  https://www.bcentral.cl/areas/estadisticas
 - Alcance de los datos: La cobertura temporal recolectada es mensual, y cuenta con los años de 2014 hasta el 2024.
-- Variables incorporadas: variable | descripción.
+- Variables incorporadas: Porcentaje de Importaciones Relativas | Rango temporal.
