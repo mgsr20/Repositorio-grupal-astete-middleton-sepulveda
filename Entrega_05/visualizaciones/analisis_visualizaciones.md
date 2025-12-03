@@ -18,6 +18,7 @@ La visualización actúa como una introducción a lo que será el resto de la we
 
 ### Visualización 2: IPC
 
+Esta visualización actúa como el eje central de la Webstory, y permite argumentar toda nuestra hipótesis: la moda se comporta distinto al resto de las variables, aunque haya crisis. Podemos apreciar visualmente la brecha, y la drástica diferencia se comporta como un *hook* para el lector.
 
 ### Visualización 3: Importaciones Comparativas
 
