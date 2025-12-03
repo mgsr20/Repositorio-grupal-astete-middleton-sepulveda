@@ -40,7 +40,7 @@ La identidad se compone por una paleta de colores rosas y beiges claros, todos e
 
 ### Tipográfias
 
-En el caso de las tipografías, mantuvimos *Montserrat* para aquellos textos generales, y convertimos *edlm* en la nueva tipografía principal, ya que tenía una mayor semejanza a las tipografías de revistas editoriales.
+En el caso de las tipografías, mantuvimos *Montserrat* para aquellos textos generales, y convertimos *Playfair Display* en la nueva tipografía principal, ya que tenía una mayor semejanza a las tipografías de revistas editoriales.
 
 ### Elementos gráficos
 
