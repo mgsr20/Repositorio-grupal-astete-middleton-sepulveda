@@ -28,9 +28,9 @@ La síntesis de la webstory no es una conclusión completamente acádemica, y ce
 
 La identidad se compone por una paleta de colores rosas y beiges claros, todos en tonos cálidos. El uso de estos colores permite tener mayor contraste con las imágenes que vayamos utilizando.
 
-- Rosa (#E05297): Marca todo lo relacionado con "Ropa" y "Oportunidad". Guía el ojo hacia lo positivo.
-- Negro/Gris (#1a1a1a): Genera el contraste tanto en las variables de las visualizaciones, como de la página general.
-- Beige (#F5F5DC): Simula papel de revista, alejándonos del blanco de las webs tradicionales.
+- Rosa : Marca todo lo relacionado con "Ropa" y "Oportunidad". Guía el ojo hacia lo positivo.
+- Negro/Gris : Genera el contraste tanto en las variables de las visualizaciones, como de la página general.
+- Beige : Simula papel de revista, alejándonos del blanco de las webs tradicionales.
 
 ### Tipográfias
 
