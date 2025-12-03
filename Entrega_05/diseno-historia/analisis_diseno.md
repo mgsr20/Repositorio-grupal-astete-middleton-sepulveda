@@ -32,8 +32,21 @@ La síntesis de la webstory no es una conclusión completamente acádemica, y ce
 
 ### Paleta de colores
 
-La identidad se compone por una paleta de colores rosas y beiges claros, todos en tonos cálidos. El uso de estos colores permite tener mayor contraste con las imágenes que vayamos utilizando, permitiendo también que el negro destaque cuando sea hora de presentar datos más duros. 
+La identidad se compone por una paleta de colores rosas y beiges claros, todos en tonos cálidos. El uso de estos colores permite tener mayor contraste con las imágenes que vayamos utilizando.
 
-![Rosa](https://img.shields.io/badge/_-#E05297)
+- Rosa (#E05297): Marca todo lo relacionado con "Ropa" y "Oportunidad". Guía el ojo hacia lo positivo.
+- Negro/Gris (#1a1a1a): Genera el contraste tanto en las variables de las visualizaciones, como de la página general.
+- Beige (#F5F5DC): Simula papel de revista, alejándonos del blanco de las webs tradicionales.
 
+### Tipográfias
+
+En el caso de las tipografías, mantuvimos *Montserrat* para aquellos textos generales, y convertimos *edlm* en la nueva tipografía principal, ya que tenía una mayor semejanza a las tipografías de revistas editoriales.
+
+### Elementos gráficos
+
+El tener elementos flotantes como ropa, zapatos, y carteras mantiene la idea constante de estar de *shopping*, y que sean gif con movimiento mantiene la atención del usuario. 
+
+### Visualizaciones
+
+Al incorporar los gráficos y datos de Google Trends nos preocupamos de que no cubrieran toda la página, y al utilizar la plataforma *Flourish*, hacerlos interactivos y dinámiocos.
 
