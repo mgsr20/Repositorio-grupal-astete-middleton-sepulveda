@@ -34,3 +34,8 @@ Además, incorporamos datos de **importaciones de vestuario**, que reforzaron es
 | Desarrollo sitio web                       | Sí        | -        | -       |
 | Readme general y redacción webstory    | -         | Sí       | -       |
 | Subcarpetas visualizaciones y diseño       | -         | -        | Sí      |
+
+Gráficos:
+Magdalena: IPC y Google Trends
+Benjamín: Importaciones
+Antonia: Índice de ventas
