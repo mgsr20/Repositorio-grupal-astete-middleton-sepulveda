@@ -879,3 +879,10 @@ body {
     transition: opacity 0.15s ease, transform 0.1s ease;
     z-index: 99999;
 }
+.altair-graphic,
+.altair-graphic svg {
+    pointer-events: auto;
+}
+#gif-cursor {
+    pointer-events: none;
+}
