@@ -517,7 +517,7 @@ h1, h2{
 .datos-intro-magazine {
     max-width: 750px;
     margin: 60px auto;     /* espacio antes del texto */
-    column-count: 1;       /* DOS COLUMNAS EDITORIALES */
+    column-count: 1;       
     column-gap: 50px;      /* separación entre columnas */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.05rem;
@@ -620,7 +620,7 @@ h1, h2{
 .magazine-dynamic {
     max-width: 820px;
     margin: 70px auto 100px auto;
-    column-count: 2;
+    column-count: 1;
     column-gap: 55px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.07rem;
