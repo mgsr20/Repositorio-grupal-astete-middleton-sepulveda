@@ -861,7 +861,7 @@ body {
 }
 
 #gif-cursor {
-    opacity: 0;
+    opacity: 0.8;
 }
 
 a:hover ~ #gif-cursor,
