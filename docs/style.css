@@ -863,6 +863,15 @@ body {
 #gif-cursor {
     opacity: 0.8;
 }
+/* cuando el mouse está quieto, baja la presencia */
+body {
+    cursor: none;
+}
+
+#gif-cursor {
+    transition: opacity 0.2s ease, transform 0.08s ease;
+}
+
 
 a:hover ~ #gif-cursor,
 button:hover ~ #gif-cursor,
