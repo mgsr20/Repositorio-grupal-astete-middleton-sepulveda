@@ -840,3 +840,32 @@ h1, h2{
 .altair-graphic {
     background: #faf7f2; /* mismo tono del bg general */
 }
+
+
+body {
+    cursor: none;
+}
+
+/* cursor GIF fake */
+#gif-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    pointer-events: none;
+    z-index: 99999;
+    background: url("./resources/6.gif") center/contain no-repeat;
+    transform: translate(-50%, -50%);
+    transition: transform 0.08s ease-out;
+}
+
+#gif-cursor {
+    opacity: 0;
+}
+
+a:hover ~ #gif-cursor,
+button:hover ~ #gif-cursor,
+.polaroid-option:hover ~ #gif-cursor {
+    opacity: 1;
+}

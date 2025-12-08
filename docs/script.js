@@ -47,5 +47,19 @@ document.getElementById('btn-checkout').addEventListener('click', () => {
     });
 })();
 
+const cursor = document.getElementById("gif-cursor");
 
+document.addEventListener("mousemove", (e) => {
+  cursor.style.top = `${e.clientY}px`;
+  cursor.style.left = `${e.clientX}px`;
+});
+
+document.querySelectorAll("a, button, .polaroid-option").forEach(el => {
+  el.addEventListener("mouseenter", () => {
+    cursor.style.opacity = 1;
+  });
+  el.addEventListener("mouseleave", () => {
+    cursor.style.opacity = 0;
+  });
+});
 

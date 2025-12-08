@@ -13,6 +13,7 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
+<div id="gif-cursor"></div>
 
 <body>
     <!-- ================= COLLAGE DECORATIVO ================= -->
@@ -462,6 +463,21 @@
         observer.observe(section);
     });
 
+const cursor = document.getElementById("gif-cursor");
+
+document.addEventListener("mousemove", (e) => {
+  cursor.style.top = `${e.clientY}px`;
+  cursor.style.left = `${e.clientX}px`;
+});
+
+document.querySelectorAll("a, button, .polaroid-option").forEach(el => {
+  el.addEventListener("mouseenter", () => {
+    cursor.style.opacity = 1;
+  });
+  el.addEventListener("mouseleave", () => {
+    cursor.style.opacity = 0;
+  });
+});
 
 </script>
 <script>
