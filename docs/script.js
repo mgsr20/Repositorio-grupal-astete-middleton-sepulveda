@@ -33,4 +33,19 @@ document.getElementById('btn-checkout').addEventListener('click', () => {
 });
 
 
+(function markFirstParagraphs(){
+    // contenedores donde queremos que haya 1 drop-cap por sección
+    const containers = document.querySelectorAll('section, .main-content, .main-content-datos, .main-content-porque, .bajada-magazine, .datos-intro-magazine, .magazine-dynamic');
+
+    // limpia marcas previas (por si se ejecuta varias veces)
+    document.querySelectorAll('.first-paragraph').forEach(el => el.classList.remove('first-paragraph'));
+
+    containers.forEach(container => {
+        // Encuentra el primer <p> descendiente visible
+        const p = container.querySelector('p');
+        if (p) p.classList.add('first-paragraph');
+    });
+})();
+
+
 

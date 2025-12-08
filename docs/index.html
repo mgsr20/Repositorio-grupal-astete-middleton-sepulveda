@@ -462,6 +462,22 @@
 
 
 </script>
+<script>
+
+(function markFirstParagraphs(){
+ 
+    const containers = document.querySelectorAll('section, .main-content, .main-content-datos, .main-content-porque, .bajada-magazine, .datos-intro-magazine, .magazine-dynamic');
+
+   
+    document.querySelectorAll('.first-paragraph').forEach(el => el.classList.remove('first-paragraph'));
+
+    containers.forEach(container => {
+      
+        const p = container.querySelector('p');
+        if (p) p.classList.add('first-paragraph');
+    });
+})();
+</script>
 
 </body>
 </html>
