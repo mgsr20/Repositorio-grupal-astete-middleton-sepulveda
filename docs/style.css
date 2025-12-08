@@ -556,31 +556,14 @@ h1, h2{
 }
 
 /* ======================= PÁRRAFO EDITORIAL EN DATOS ======================= */
-.magazine-paragraph {
-    max-width: 760px;
-    margin: 40px auto 60px auto;  /* espacio arriba y abajo */
-    column-count: 2;
-    column-gap: 50px;
-    text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.05rem;
-    line-height: 1.65;
-}
+
 
 /* palabras rosadas */
-.pink {
-    color: #eab8ad;
-    font-weight: 700;
-}
 .magazine-paragraph {
-    max-width: 760px;
-    margin: 40px auto 60px auto;
-    column-count: 2;
-    column-gap: 50px;
+    max-width: 680px;       /* ancho editorial */
+    margin: 40px auto 70px auto;
+    column-count: 1;       /* ✅ una sola columna */
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.05rem;
-    line-height: 1.65;
 }
 
 .pink {
@@ -588,16 +571,13 @@ h1, h2{
     font-weight: 700;
 }
 
-.magazine-paragraph {
-    max-width: 760px;
-    margin: 40px auto 60px auto;
-    column-count: 2;
-    column-gap: 50px;
-    text-align: justify;
-    font-family: 'Montserrat', sans-serif';
-    font-size: 1.05rem;
-    line-height: 1.65;
+
+.pink {
+    color: #eab8ad;
+    font-weight: 700;
 }
+
+
 
 .pink {
     color: #eab8ad;
