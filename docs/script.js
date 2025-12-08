@@ -47,19 +47,21 @@ document.getElementById('btn-checkout').addEventListener('click', () => {
     });
 })();
 
-const cursor = document.getElementById("gif-cursor");
+const cursor = document.getElementById('gif-cursor');
 
-document.addEventListener("mousemove", (e) => {
-  cursor.style.top = `${e.clientY}px`;
-  cursor.style.left = `${e.clientX}px`;
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = `${e.clientX}px`;
+    cursor.style.top  = `${e.clientY}px`;
+
+    // SIEMPRE visible
+    cursor.style.opacity = '0.75';
 });
 
-document.querySelectorAll("a, button, .polaroid-option").forEach(el => {
-  el.addEventListener("mouseenter", () => {
-    cursor.style.opacity = 1;
-  });
-  el.addEventListener("mouseleave", () => {
-    cursor.style.opacity = 0;
-  });
+// cuando haces click → pequeño feedback
+document.addEventListener('click', () => {
+    cursor.style.transform = 'translate(-50%, -50%) scale(0.9)';
+    setTimeout(() => {
+        cursor.style.transform = 'translate(-50%, -50%) scale(1)';
+    }, 120);
 });
 
