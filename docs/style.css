@@ -541,7 +541,7 @@ h1, h2{
 .bajada-magazine {
     max-width: 780px;
     margin: 60px auto 80px auto;    /* espacio antes y después */
-    column-count: 2;
+    column-count: 1;
     column-gap: 55px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.08rem;
@@ -560,9 +560,9 @@ h1, h2{
 
 /* palabras rosadas */
 .magazine-paragraph {
-    max-width: 680px;       /* ancho editorial */
+    max-width: 680px;      
     margin: 40px auto 70px auto;
-    column-count: 1;       /* ✅ una sola columna */
+    column-count: 1;       
     text-align: justify;
 }
 
