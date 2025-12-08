@@ -843,7 +843,7 @@ h1, h2{
 /* ================= ALTAR SVG GRAPH ================= */
 
 .altair-graphic {
-    max-width: 900px;
+    max-width: 720px;
     margin: 50px auto 70px auto; /* aire editorial */
     padding: 20px;
     background: white;
