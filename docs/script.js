@@ -58,7 +58,7 @@ window.addEventListener('mousemove', (e) => {
 });
 
 // cuando haces click → pequeño feedback
-document.addEventListener('click', () => {
+window.addEventListener('click', () => {
     cursor.style.transform = 'translate(-50%, -50%) scale(0.9)';
     setTimeout(() => {
         cursor.style.transform = 'translate(-50%, -50%) scale(1)';
