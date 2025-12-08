@@ -856,3 +856,7 @@ h1, h2{
     height: auto;
     display: block;
 }
+
+.altair-graphic {
+    background: #faf7f2; /* mismo tono del bg general */
+}
