@@ -49,7 +49,7 @@ document.getElementById('btn-checkout').addEventListener('click', () => {
 
 const cursor = document.getElementById('gif-cursor');
 
-document.addEventListener('mousemove', (e) => {
+window.addEventListener('mousemove', (e) => {
     cursor.style.left = `${e.clientX}px`;
     cursor.style.top  = `${e.clientY}px`;
 
