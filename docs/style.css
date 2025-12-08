@@ -839,3 +839,20 @@ h1, h2{
 .piece-2 { top: 40px; right: 20%; transform: rotate(5deg); animation-delay: 0.25s; }
 .piece-3 { bottom: 0; left: 35%; transform: rotate(-3deg); animation-delay: 0.4s; }
 .piece-4 { bottom: -10px; right: 32%; transform: rotate(4deg); animation-delay: 0.55s; }
+
+/* ================= ALTAR SVG GRAPH ================= */
+
+.altair-graphic {
+    max-width: 900px;
+    margin: 50px auto 70px auto; /* aire editorial */
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.altair-graphic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
