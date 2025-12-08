@@ -869,12 +869,13 @@ body {
 }
 
 #gif-cursor {
-    transition: opacity 0.2s ease, transform 0.08s ease;
-}
-
-
-a:hover ~ #gif-cursor,
-button:hover ~ #gif-cursor,
-.polaroid-option:hover ~ #gif-cursor {
-    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 48px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    opacity: 0.75;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+    z-index: 99999;
 }
