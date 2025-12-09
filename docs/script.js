@@ -9,9 +9,10 @@ document.querySelectorAll('nav a[href^="#"]').forEach(a => {
 
 // botones navegación
 document.getElementById('btn-vitrinear').addEventListener('click', () => {
-    document.getElementById('datos')
+    document.getElementById('gustitos')
         .scrollIntoView({ behavior: 'smooth' });
 });
+
 
 document.getElementById('btn-probador').addEventListener('click', () => {
     document.getElementById('hipotesis')

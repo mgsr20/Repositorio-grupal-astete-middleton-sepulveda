@@ -165,7 +165,9 @@
     <img src="imagenes/telajean.png" class="collage-piece piece-3">
     <img src="imagenes/telas.png" class="collage-piece piece-4">
 </div>
-<section class="block-gustitos">
+
+<section id="gustitos" class="block-gustitos">
+
 
     <h2 class="headline-mov">
         <span>Cuando la economía se mueve,</span><br>
@@ -479,9 +481,10 @@
 
     // botones navegación
     document.getElementById('btn-vitrinear').addEventListener('click', () => {
-        document.getElementById('datos')
-            .scrollIntoView({ behavior: 'smooth' });
-    });
+    document.getElementById('gustitos')
+        .scrollIntoView({ behavior: 'smooth' });
+});
+
 
     document.getElementById('btn-probador').addEventListener('click', () => {
         document.getElementById('hipotesis')
