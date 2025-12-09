@@ -886,3 +886,36 @@ body {
 #gif-cursor {
     pointer-events: none;
 }
+
+.block-gustitos {
+    margin: 6rem auto;
+    max-width: 900px;
+}
+
+/* titular grande */
+.headline-mov {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+/* animación suave del remate */
+.wiggle {
+    display: inline-block;
+    animation: wiggle 4s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(6px); }
+    100% { transform: translateX(0); }
+}
+
+/* cuerpo estilo revista */
+.block-gustitos .cuerpo-magazine p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+}
