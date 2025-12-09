@@ -919,3 +919,45 @@ body {
     line-height: 1.7;
     margin-bottom: 1.2rem;
 }
+
+.block-magazine {
+    max-width: 760px;
+    margin: 4rem auto 6rem auto;
+}
+
+/* texto principal */
+.magazine-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+}
+
+/* letra capital SOLO UNA VEZ */
+.dropcap {
+    float: left;
+    font-size: 3.2rem;
+    line-height: 0.9;
+    font-weight: 800;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+
+/* itálicas para anglicismos */
+.italic {
+    font-style: italic;
+}
+
+/* frase remate */
+.highlight-line {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.4s ease;
+}
+
+.highlight-line:hover {
+    transform: translateY(-4px);
+}
