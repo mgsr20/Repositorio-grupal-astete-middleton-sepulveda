@@ -1019,3 +1019,15 @@ body {
 .imports-editorial .darkpink {
     color: #c45566; /* más contraste */
 }
+/* ================= DROP CAP ÚNICA ================= */
+
+.section-text > p:first-of-type::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.8rem;
+    font-weight: 900;
+    float: left;
+    line-height: 0.8;
+    padding-right: 8px;
+    padding-top: 6px;
+    color: #d69a96;
+}
