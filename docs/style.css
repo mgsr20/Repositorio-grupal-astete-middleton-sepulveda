@@ -1021,7 +1021,7 @@ body {
 }
 /* ================= DROP CAP ÚNICA ================= */
 
-.section-text > p:first-of-type::first-letter {
+.dropcap {
     font-family: 'Playfair Display', serif;
     font-size: 3.8rem;
     font-weight: 900;
@@ -1029,5 +1029,5 @@ body {
     line-height: 0.8;
     padding-right: 8px;
     padding-top: 6px;
-    color: #d69a96;
+    color: #d69a96; /* rosado correcto */
 }
