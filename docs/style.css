@@ -931,10 +931,10 @@ body {
 /* texto principal */
 .magazine-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.05rem;
+    font-size: 2rem;
     line-height: 1.7;
-    margin-bottom: 1.2rem;
-    text-align: justify;
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 /* letra capital SOLO UNA VEZ */
