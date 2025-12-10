@@ -525,7 +525,7 @@ h1, h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.05rem;
     line-height: 1.65;
-    text-align: justify;
+    text-align: center;
 }
 
 /* palabras rosadas */
@@ -549,7 +549,7 @@ h1, h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.08rem;
     line-height: 1.7;
-    text-align: justify;
+    text-align: center;
 }
 
 /* reutilizamos la clase .pink */
@@ -566,7 +566,7 @@ h1, h2{
     max-width: 680px;      
     margin: 40px auto 70px auto;
     column-count: 1;       
-    text-align: justify;
+    text-align: center;
 }
 
 .pink {
@@ -628,7 +628,7 @@ h1, h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.07rem;
     line-height: 1.7;
-    text-align: justify;
+    text-align: center;
     opacity: 0;
     transform: translateY(40px);
     transition: all 1s ease;
