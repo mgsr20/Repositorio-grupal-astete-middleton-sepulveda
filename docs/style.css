@@ -1,3 +1,6 @@
+/* ================= perdón profes x hacer este css infinito ================= */
+
+
 :root{
   --accent: #e18a97;
   --accent-dark: #d56675;
@@ -1030,4 +1033,17 @@ body {
     padding-right: 8px;
     padding-top: 6px;
     color: #d69a96; /* rosado correcto */
+}
+
+/* ================= SCROLL REVEAL ================= */
+
+.reveal-text {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.reveal-text.active {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -65,3 +65,22 @@ window.addEventListener('click', () => {
         cursor.style.transform = 'translate(-50%, -50%) scale(1)';
     }, 120);
 });
+
+// ================= SCROLL REVEAL =================
+
+const revealElements = document.querySelectorAll('.reveal-text');
+
+const revealOnScroll = new IntersectionObserver(
+  (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  },
+  {
+    threshold: 0.15
+  }
+);
+
+revealElements.forEach(el => revealOnScroll.observe(el));

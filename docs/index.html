@@ -68,7 +68,7 @@
 
 <main>
  <!--  BAJADA TIPO REVISTA  -->
-<div class="bajada-magazine">
+<div class="bajada-magazine reveal-text">
 
     <p>
         En Chile, incluso cuando el 
@@ -174,7 +174,7 @@
         <span class="pink wiggle">¿qué pasa con nuestros gustitos?</span>
     </h2>
 
-    <div class="cuerpo-magazine">
+    <div class="cuerpo-magazine reveal-text">
         <p>
             Entre 
             <strong class="pink">2014</strong> y 
@@ -217,7 +217,7 @@
 
                 <div class="recuadro">
                     <h2>Un consumo estable</h2>
-                    <div class="magazine-text">
+                    <div class="magazine-text reveal-text">
        
      <p class="magazine-text section-text">
     Al observar el gráfico de <em class="italic">ventas minoristas</em> de 
@@ -260,7 +260,7 @@
 
             <div class="context-paragraph">
                 <h2>Un gusto accesible</h2>
-  <div class="magazine-dynamic visible">
+  <div class="magazine-dynamic visible reveal-text">
 
     <p>
         <span class="pink">Mientras la inflación post-pandemia</span> elevó con fuerza los precios de 
@@ -320,7 +320,7 @@
         <div class="main-content-porque">
 
                 <header class="porque-header">
-    <h1 class="hipotesis-text">
+    <h1 class="hipotesis-text reveal-text">
         El <strong class="darkpink">consumo constante de ropa</strong> es un indicio de que la 
         población chilena percibe el <strong class="darkpink">vestir</strong> no solo como una necesidad, 
         sino como un <strong class="darkpink">gusto accesible</strong> con alto valor personal.
@@ -338,7 +338,7 @@
             </div BAJO IMPORTACIONES -->
 <div class="magazine-paragraph">
 
-    <div class="imports-editorial magazine-dynamic">
+    <div class="imports-editorial magazine-dynamic reveal-text">
     <p>
         Si pasamos de los precios a la <span class="pink">oferta que llega al país</span>, el escenario
         se vuelve aún más claro: las importaciones de vestuario lideran ampliamente frente al resto,
@@ -410,7 +410,7 @@
             </div>
             
 <!-- estoy cansada fin fin -->
-<div class="magazine-dynamic visible">
+<div class="magazine-dynamic visible reveal-text">
 
     <p>
         <span class="darkpink">A lo largo de una década marcada por altibajos económicos</span>, los datos
@@ -536,6 +536,25 @@ window.addEventListener('click', () => {
         if (p) p.classList.add('first-paragraph');
     });
 })();
+// ================= SCROLL REVEAL =================
+
+const revealElements = document.querySelectorAll('.reveal-text');
+
+const revealOnScroll = new IntersectionObserver(
+  (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  },
+  {
+    threshold: 0.15
+  }
+);
+
+revealElements.forEach(el => revealOnScroll.observe(el));
+
 </script>
 
 </body>
