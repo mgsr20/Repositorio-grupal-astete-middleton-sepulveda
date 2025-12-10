@@ -28,11 +28,11 @@ Utilizando la misma base de datos que para la visualización 2, elaboramos un se
 
 Esta visualización termina por demostrar como el Vestuario, al posicionarse consistentemente con valores tan altos o incluso superiores a los de bienes esenciales (como Carne y Otros alimentos), que se establece una jerarquía de gasto en la mente del consumidor. Se comunica visualmente que la vestimenta no es un gasto marginal o fácilmente sustituible, sino una prioridad de consumo que resiste la presión inflacionaria.
 
-#### Visualización 5: Importaciones (valores absolutos)
+### Visualización 5: Importaciones (valores absolutos)
 
 Utilizando la misma base de datos que para las Visualización 4, elaboramos una visualización de los valores absolutos de las importaciones, mostrando la variable en millones de dólares, apreciando claramente como el vestuario es el bien que más dinero mueve en el mercado.
 
-#### Visualización 6: Google Trends
+### Visualización 6: Google Trends
 
 Para mostrar que el vestuario sigue siendo de interés de los chilenos inclusive en tiempos de crisis, adjuntamos una visualización del progreso temporal de la búsqueda de distintas prendas de ropa en Google Trends, apreciando de forma interactiva su evolución en el tiempo.
 
