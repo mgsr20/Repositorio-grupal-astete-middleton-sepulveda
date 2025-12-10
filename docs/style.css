@@ -989,3 +989,33 @@ body {
     transform: translateX(4px);
     transition: transform 0.3s ease;
 }
+
+.block-gustitos {
+    text-align: center;
+}
+
+.block-gustitos .cuerpo-magazine {
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+.block-gustitos .cuerpo-magazine p {
+    text-align: center;
+}
+
+#gustitos {
+    scroll-margin-top: 120px;
+}
+.context-paragraph::before {
+    content: "✦";
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--accent-dark);
+    margin-bottom: 60px;
+    opacity: 0.6;
+}
+
+.imports-editorial .darkpink {
+    color: #c45566; /* más contraste */
+}
